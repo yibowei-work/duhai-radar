@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "user_agent": "DuhaiRadar/1.0 (+https://github.com/yibowei-work/duhai-radar)",
+  "sources": [
+    {
+      "id": "google-news-cn-brands",
+      "label": "Google News · 中国品牌",
+      "kind": "rss",
+      "url": "https://news.google.com/rss/search?q=%28%E4%B8%AD%E5%9B%BD%E5%93%81%E7%89%8C%20OR%20%E6%96%B0%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%29%20%28%E5%87%BA%E6%B5%B7%20OR%20%E6%B5%B7%E5%A4%96%20OR%20%E8%B7%A8%E5%A2%83%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "tier": "C",
+      "default_category": "品牌与扩张",
+      "enabled": true,
+      "discovery_only": true,
+      "always_relevant": false
+    },
+    {
+      "id": "google-news-commerce-stack",
+      "label": "Google News · 跨境链路",
+      "kind": "rss",
+      "url": "https://news.google.com/rss/search?q=%E8%B7%A8%E5%A2%83%E7%94%B5%E5%95%86%20%28%E5%B9%B3%E5%8F%B0%20OR%20%E7%89%A9%E6%B5%81%20OR%20%E6%94%AF%E4%BB%98%20OR%20%E5%90%88%E8%A7%84%20OR%20%E5%8C%85%E8%A3%85%29&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "tier": "C",
+      "default_category": "渠道与电商",
+      "enabled": true,
+      "discovery_only": true,
+      "always_relevant": true
+    },
+    {
+      "id": "google-news-brand-watchlist",
+      "label": "Google News · 品牌观察池",
+      "kind": "rss",
+      "url": "https://news.google.com/rss/search?q=%28SHEIN%20OR%20Temu%20OR%20MINISO%20OR%20POP%20MART%20OR%20Anker%20OR%20Roborock%20OR%20CHAGEE%20OR%20Luckin%20OR%20BYD%29%20%28global%20OR%20overseas%20OR%20international%29&hl=en-US&gl=US&ceid=US%3Aen",
+      "tier": "C",
+      "default_category": "品牌与扩张",
+      "enabled": true,
+      "discovery_only": true,
+      "always_relevant": true
+    },
+    {
+      "id": "shopify-changelog",
+      "label": "Shopify Changelog",
+      "kind": "rss",
+      "url": "https://changelog.shopify.com/feed",
+      "tier": "B",
+      "default_category": "渠道与电商",
+      "enabled": true,
+      "discovery_only": false,
+      "always_relevant": true
+    },
+    {
+      "id": "gdelt-china-brands",
+      "label": "GDELT · 全球新闻发现",
+      "kind": "gdelt",
+      "query": "(\"Chinese brand\" OR SHEIN OR Temu OR MINISO OR \"POP MART\" OR Anker OR Roborock OR CHAGEE) (overseas OR global OR international)",
+      "tier": "C",
+      "default_category": "品牌与扩张",
+      "max_records": 100,
+      "enabled": true,
+      "discovery_only": true,
+      "always_relevant": true
+    },
+    {
+      "id": "federal-register-imports",
+      "label": "U.S. Federal Register",
+      "kind": "federal_register",
+      "query": "e-commerce imports China product safety online marketplace",
+      "tier": "A",
+      "default_category": "政策与合规",
+      "enabled": true,
+      "discovery_only": false,
+      "always_relevant": true
+    }
+  ],
+  "relevance_keywords": [
+    "中国品牌",
+    "出海",
+    "跨境",
+    "海外",
+    "全球化",
+    "chinese brand",
+    "china-based",
+    "cross-border",
+    "shein",
+    "temu",
+    "miniso",
+    "pop mart",
+    "anker",
+    "ecoflow",
+    "roborock",
+    "byd",
+    "chagee",
+    "luckin",
+    "aliexpress",
+    "tiktok shop"
+  ]
+}
