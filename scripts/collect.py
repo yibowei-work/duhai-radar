@@ -33,24 +33,24 @@ TRACKING_PARAMS = {
     "source",
 }
 BRANDS = {
-    "shein": "SHEIN",
-    "temu": "Temu",
-    "miniso": "MINISO",
+    "shein": "希音",
+    "temu": "拼多多跨境平台",
+    "miniso": "名创优品",
     "pop mart": "泡泡玛特",
     "泡泡玛特": "泡泡玛特",
     "anker": "安克创新",
     "安克": "安克创新",
-    "ecoflow": "EcoFlow",
-    "roborock": "Roborock",
-    "石头科技": "Roborock",
+    "ecoflow": "正浩创新",
+    "roborock": "石头科技",
+    "石头科技": "石头科技",
     "byd": "比亚迪",
     "比亚迪": "比亚迪",
     "chagee": "霸王茶姬",
     "霸王茶姬": "霸王茶姬",
     "luckin": "瑞幸咖啡",
     "瑞幸": "瑞幸咖啡",
-    "aliexpress": "AliExpress",
-    "tiktok shop": "TikTok Shop",
+    "aliexpress": "全球速卖通",
+    "tiktok shop": "抖音海外电商平台",
     "菜鸟": "菜鸟",
     "ant international": "蚂蚁国际",
     "蚂蚁国际": "蚂蚁国际",
@@ -229,12 +229,12 @@ MARKETS = {
 }
 PM_LENS = {
     "品牌与扩张": (
-        "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或 GMV 总量。",
+        "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
         "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
     ),
     "产品与包装": (
         "判断底层能力能否跨品类复用，并把包装材料与法规证据纳入商品数据。",
-        "挑一个 SKU，补齐材料、标签、证据与替代方案字段。",
+        "挑一个代表性商品款，补齐材料、标签、证据与替代方案字段。",
     ),
     "营销与内容": (
         "把内容看作交易系统的一部分，联动选品、库存、达人和复购。",
@@ -242,7 +242,7 @@ PM_LENS = {
     ),
     "渠道与电商": (
         "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
-        "更新平台政策日志，并重算一个代表性 SKU 的单位经济。",
+        "更新平台政策日志，并重算一个代表性商品款的单位经济。",
     ),
     "物流与履约": (
         "只有进入商品页承诺、订单轨迹和异常补偿，物流才成为用户体验。",
@@ -258,7 +258,7 @@ PM_LENS = {
     ),
     "市场与消费": (
         "总量增长可能掩盖同店、复购、折扣与渠道库存的结构性变化。",
-        "按市场和 cohort 拆分增长，补看复购、退货和折扣深度。",
+        "按市场和用户分组拆分增长，补看复购、退货和折扣深度。",
     ),
 }
 
@@ -270,6 +270,10 @@ def clean_text(value: str | None) -> str:
     text = re.sub(r"<style\b[^>]*>.*?</style>", " ", text, flags=re.I | re.S)
     text = re.sub(r"<[^>]+>", " ", text)
     return re.sub(r"\s+", " ", html.unescape(text)).strip()
+
+
+def has_chinese_text(value: str) -> bool:
+    return bool(re.search(r"[\u3400-\u9fff]", value))
 
 
 def clip_text(value: str, limit: int = 220) -> str:
@@ -520,6 +524,10 @@ def to_item(
     published = parse_datetime(raw.get("published_at"))
     if not title or not url or not published or not url.startswith(("http://", "https://")):
         return None
+    if not has_chinese_text(title):
+        return None
+    if summary and not has_chinese_text(summary):
+        summary = ""
     local_date = published.astimezone(TIMEZONE).date()
     if local_date < start or local_date > end:
         return None
@@ -549,7 +557,7 @@ def to_item(
         score += 0.2
     score = round(min(score, 9.4), 1)
 
-    clean_summary = clip_text(summary or f"{source['label']} 发布了与中国品牌出海相关的新变化，详情请查看原始来源。")
+    clean_summary = clip_text(summary or "该来源发布了与中国品牌出海相关的新变化，详情请查看原始来源。")
     item_id = hashlib.sha256(url.encode("utf-8")).hexdigest()[:18]
     source_name = clean_text(raw.get("source")) or source["label"]
 

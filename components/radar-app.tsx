@@ -100,10 +100,14 @@ const categoryOptions = [
   { key: '市场与消费', label: '市场与消费', icon: TrendingUp },
 ];
 
-const impactCopy: Record<Impact, { label: string; className: string; icon: typeof Sparkles }> = {
+const impactCopy: Record<
+  Impact,
+  { label: string; className: string; icon: typeof Sparkles }
+> = {
   opportunity: {
     label: '机会',
-    className: 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-200',
+    className:
+      'bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-200',
     icon: Sparkles,
   },
   risk: {
@@ -113,7 +117,8 @@ const impactCopy: Record<Impact, { label: string; className: string; icon: typeo
   },
   mixed: {
     label: '混合信号',
-    className: 'bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-200',
+    className:
+      'bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-200',
     icon: CircleAlert,
   },
 };
@@ -135,6 +140,74 @@ const pmLensByCategory: Record<string, typeof Lightbulb> = {
   政策与合规: ShieldAlert,
   市场与消费: TrendingUp,
 };
+
+const chineseBrandNames: Record<string, string> = {
+  SHEIN: '希音',
+  Temu: '拼多多跨境平台',
+  MINISO: '名创优品',
+  Shopify: '独立站服务平台',
+  Roborock: '石头科技',
+  AliExpress: '全球速卖通',
+  'TikTok Shop': '抖音海外电商平台',
+  'Ant International': '蚂蚁国际',
+  CHAGEE: '霸王茶姬',
+  'Luckin Coffee': '瑞幸咖啡',
+  'POP MART': '泡泡玛特',
+  EcoFlow: '正浩创新',
+};
+
+const chineseTerms: Array<[RegExp, string]> = [
+  [/TikTok Shop/gi, '抖音海外电商平台'],
+  [/TikTok/gi, '抖音海外版'],
+  [/Luckin Coffee/gi, '瑞幸咖啡'],
+  [/Ant International/gi, '蚂蚁国际'],
+  [/Amazon Ads Agent/gi, '亚马逊广告智能助手'],
+  [/POP MART/gi, '泡泡玛特'],
+  [/AliExpress/gi, '全球速卖通'],
+  [/Shopify/gi, '独立站服务平台'],
+  [/Roborock/gi, '石头科技'],
+  [/MINISO/gi, '名创优品'],
+  [/CHAGEE/gi, '霸王茶姬'],
+  [/SHEIN/gi, '希音'],
+  [/Temu/gi, '拼多多跨境平台'],
+  [/EcoFlow/gi, '正浩创新'],
+  [/Mastercard/gi, '万事达卡'],
+  [/Agentic Mobile Payment/gi, '智能体移动支付'],
+  [/\bGMV\b/gi, '商品交易总额'],
+  [/\bSKU\b/gi, '商品款'],
+  [/\bcohort\b/gi, '分组'],
+];
+
+function hasChineseText(value: string) {
+  return /[\u3400-\u9fff]/.test(value);
+}
+
+function toChineseText(value: string) {
+  return chineseTerms.reduce(
+    (result, [pattern, replacement]) => result.replace(pattern, replacement),
+    value,
+  );
+}
+
+function displayBrand(value: string) {
+  const localized = chineseBrandNames[value] ?? toChineseText(value);
+  return hasChineseText(localized) ? localized : '相关品牌';
+}
+
+function displayTags(tags: string[]) {
+  return tags
+    .map(toChineseText)
+    .filter(
+      (tag, index, values) =>
+        hasChineseText(tag) && values.indexOf(tag) === index,
+    );
+}
+
+function isChineseReady(item: IntelligenceItem) {
+  return hasChineseText(item.title) && hasChineseText(item.summary);
+}
+
+const displayItems = data.items.filter(isChineseReady);
 
 function formatDate(value: string, withYear = false) {
   return new Intl.DateTimeFormat('zh-CN', {
@@ -181,10 +254,22 @@ function matchesPeriod(item: IntelligenceItem, period: string) {
   return true;
 }
 
-function SignalCard({ item, featured = false }: { item: IntelligenceItem; featured?: boolean }) {
+function SignalCard({
+  item,
+  featured = false,
+}: {
+  item: IntelligenceItem;
+  featured?: boolean;
+}) {
   const impact = impactCopy[item.impact];
   const ImpactIcon = impact.icon;
   const LensIcon = pmLensByCategory[item.category] ?? Lightbulb;
+  const brand = displayBrand(item.brand);
+  const tags = displayTags(item.tags);
+  const title = toChineseText(item.title);
+  const summary = toChineseText(item.summary);
+  const takeaway = toChineseText(item.pm_takeaway);
+  const action = toChineseText(item.action);
 
   if (featured) {
     return (
@@ -192,10 +277,15 @@ function SignalCard({ item, featured = false }: { item: IntelligenceItem; featur
         <CardHeader className="gap-3 border-b border-border/70 p-5 md:grid-cols-[1fr_auto] md:p-6">
           <div className="flex flex-wrap items-center gap-2">
             <Badge className={impact.className}>
-              <ImpactIcon className="size-3" /> {impact.label} · {item.score.toFixed(1)}
+              <ImpactIcon className="size-3" /> {impact.label} ·{' '}
+              {item.score.toFixed(1)}
             </Badge>
-            <Badge variant="outline" className="bg-card">{item.category}</Badge>
-            <span className="text-xs text-muted-foreground">{item.market} · {formatDate(item.published_at, true)}</span>
+            <Badge variant="outline" className="bg-card">
+              {item.category}
+            </Badge>
+            <span className="text-xs text-muted-foreground">
+              {item.market} · {formatDate(item.published_at, true)}
+            </span>
           </div>
           <CardAction className="hidden md:block">
             <span className="grid size-9 place-items-center rounded-full bg-primary/10 text-primary">
@@ -205,14 +295,21 @@ function SignalCard({ item, featured = false }: { item: IntelligenceItem; featur
         </CardHeader>
         <CardContent className="grid gap-6 p-5 md:grid-cols-[minmax(0,1fr)_238px] md:p-6">
           <div>
-            <p className="eyebrow">今日首要信号 · {item.brand}</p>
+            <p className="eyebrow">今日首要信号 · {brand}</p>
             <CardTitle className="mt-2 max-w-3xl font-heading text-[clamp(1.35rem,2.4vw,1.85rem)] font-semibold leading-[1.35] tracking-[-0.035em]">
-              {item.title}
+              {title}
             </CardTitle>
-            <p className="mt-3 max-w-3xl text-sm leading-6 text-muted-foreground">{item.summary}</p>
+            <p className="mt-3 max-w-3xl text-sm leading-6 text-muted-foreground">
+              {summary}
+            </p>
             <div className="mt-5 flex flex-wrap items-center gap-2">
-              {item.tags.map((tag) => (
-                <span key={tag} className="rounded-full bg-muted px-3 py-1.5 text-xs text-muted-foreground"># {tag}</span>
+              {tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="rounded-full bg-muted px-3 py-1.5 text-xs text-muted-foreground"
+                >
+                  # {tag}
+                </span>
               ))}
               <a
                 href={item.source_url}
@@ -220,19 +317,23 @@ function SignalCard({ item, featured = false }: { item: IntelligenceItem; featur
                 rel="noreferrer"
                 className="ml-auto inline-flex items-center gap-1 text-xs font-medium text-foreground underline-offset-4 hover:text-primary hover:underline"
               >
-                {item.source} <ArrowUpRight className="size-3.5" />
+                查看原始来源 <ArrowUpRight className="size-3.5" />
               </a>
             </div>
           </div>
           <div className="rounded-2xl bg-foreground p-4 text-background md:p-5">
             <div className="flex items-center gap-2">
               <LensIcon className="size-4 text-primary" />
-              <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-background/55">PM Takeaway</p>
+              <p className="font-mono text-[10px] tracking-[0.14em] text-background/55">
+                产品判断
+              </p>
             </div>
-            <p className="mt-3 text-sm font-medium leading-6">{item.pm_takeaway}</p>
+            <p className="mt-3 text-sm font-medium leading-6">{takeaway}</p>
             <div className="mt-5 border-t border-background/15 pt-4">
               <p className="text-[11px] text-background/50">下一步验证</p>
-              <p className="mt-1.5 text-xs leading-5 text-background/80">{item.action}</p>
+              <p className="mt-1.5 text-xs leading-5 text-background/80">
+                {action}
+              </p>
             </div>
           </div>
         </CardContent>
@@ -242,24 +343,40 @@ function SignalCard({ item, featured = false }: { item: IntelligenceItem; featur
 
   return (
     <article className="group relative overflow-hidden rounded-2xl border border-border bg-card p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-foreground/20 hover:shadow-[0_16px_42px_color-mix(in_oklch,var(--foreground)_7%,transparent)] sm:p-6">
-      <span className={`absolute inset-y-0 left-0 w-1 ${item.impact === 'opportunity' ? 'bg-emerald-500' : item.impact === 'risk' ? 'bg-rose-500' : 'bg-amber-500'}`} />
+      <span
+        className={`absolute inset-y-0 left-0 w-1 ${item.impact === 'opportunity' ? 'bg-emerald-500' : item.impact === 'risk' ? 'bg-rose-500' : 'bg-amber-500'}`}
+      />
       <div className="flex flex-wrap items-center gap-2">
         <Badge className={impact.className}>
           <ImpactIcon className="size-3" /> {impact.label}
         </Badge>
         <Badge variant="outline">{item.category}</Badge>
-        <span className="ml-auto font-mono text-xs text-muted-foreground">{formatDate(item.published_at, true)}</span>
+        <span className="ml-auto font-mono text-xs text-muted-foreground">
+          {formatDate(item.published_at, true)}
+        </span>
       </div>
       <div className="mt-4 grid gap-5 md:grid-cols-[minmax(0,1fr)_72px]">
         <div>
-          <p className="text-xs font-medium text-primary">{item.brand} · {item.market}</p>
-          <h3 className="mt-1.5 font-heading text-lg font-semibold leading-[1.45] tracking-[-0.02em] group-hover:text-primary">{item.title}</h3>
-          <p className="mt-2 line-clamp-2 text-sm leading-6 text-muted-foreground">{item.summary}</p>
+          <p className="text-xs font-medium text-primary">
+            {brand} · {item.market}
+          </p>
+          <h3 className="mt-1.5 font-heading text-lg font-semibold leading-[1.45] tracking-[-0.02em] group-hover:text-primary">
+            {title}
+          </h3>
+          <p className="mt-2 line-clamp-2 text-sm leading-6 text-muted-foreground">
+            {summary}
+          </p>
         </div>
         <div className="hidden border-l border-border pl-4 text-right md:block">
-          <p className={`font-mono text-2xl font-semibold tracking-[-0.05em] ${scoreTone(item.score)}`}>{item.score.toFixed(1)}</p>
+          <p
+            className={`font-mono text-2xl font-semibold tracking-[-0.05em] ${scoreTone(item.score)}`}
+          >
+            {item.score.toFixed(1)}
+          </p>
           <p className="mt-1 text-[10px] text-muted-foreground">价值分</p>
-          <p className="mt-4 font-mono text-xs text-muted-foreground">{item.confidence}%</p>
+          <p className="mt-4 font-mono text-xs text-muted-foreground">
+            {item.confidence}%
+          </p>
           <p className="mt-0.5 text-[10px] text-muted-foreground">可信度</p>
         </div>
       </div>
@@ -267,19 +384,23 @@ function SignalCard({ item, featured = false }: { item: IntelligenceItem; featur
         <p className="flex items-center gap-1.5 text-[11px] font-semibold text-foreground">
           <Lightbulb className="size-3.5 text-primary" /> 产品经理视角
         </p>
-        <p className="mt-1 text-xs leading-5 text-muted-foreground">{item.pm_takeaway}</p>
+        <p className="mt-1 text-xs leading-5 text-muted-foreground">
+          {takeaway}
+        </p>
       </div>
       <div className="mt-4 flex items-center justify-between gap-3 border-t border-border pt-4">
         <div className="flex min-w-0 flex-wrap gap-1.5">
-          {item.tags.slice(0, 3).map((tag) => (
-            <span key={tag} className="text-[11px] text-muted-foreground">#{tag}</span>
+          {tags.slice(0, 3).map((tag) => (
+            <span key={tag} className="text-[11px] text-muted-foreground">
+              #{tag}
+            </span>
           ))}
         </div>
         <a
           href={item.source_url}
           target="_blank"
           rel="noreferrer"
-          aria-label={`查看原文：${item.title}`}
+          aria-label={`查看原文：${title}`}
           className="inline-flex shrink-0 items-center gap-1 text-xs font-medium text-foreground hover:text-primary"
         >
           原文 <ArrowUpRight className="size-3.5" />
@@ -298,37 +419,62 @@ export function RadarApp() {
   const searchRef = useRef<HTMLInputElement>(null);
 
   const markets = useMemo(
-    () => Array.from(new Set(data.items.map((item) => item.market))).sort((a, b) => a.localeCompare(b, 'zh-CN')),
+    () =>
+      Array.from(new Set(displayItems.map((item) => item.market))).sort(
+        (a, b) => a.localeCompare(b, 'zh-CN'),
+      ),
     [],
   );
 
   const categoryCounts = useMemo(() => {
     const counts = new Map<string, number>();
-    data.items.forEach((item) => counts.set(item.category, (counts.get(item.category) ?? 0) + 1));
+    displayItems.forEach((item) =>
+      counts.set(item.category, (counts.get(item.category) ?? 0) + 1),
+    );
     return counts;
   }, []);
 
   const filteredItems = useMemo(() => {
     const normalizedQuery = query.trim().toLocaleLowerCase('zh-CN');
-    return data.items
+    return displayItems
       .filter((item) => category === 'all' || item.category === category)
       .filter((item) => impact === 'all' || item.impact === impact)
       .filter((item) => market === 'all' || item.market === market)
       .filter((item) => matchesPeriod(item, period))
       .filter((item) => {
         if (!normalizedQuery) return true;
-        return [item.title, item.summary, item.brand, item.market, ...item.tags]
+        return [
+          item.title,
+          item.summary,
+          item.brand,
+          displayBrand(item.brand),
+          item.market,
+          ...item.tags,
+        ]
           .join(' ')
           .toLocaleLowerCase('zh-CN')
           .includes(normalizedQuery);
       })
-      .sort((a, b) => b.score - a.score || Date.parse(b.published_at) - Date.parse(a.published_at));
+      .sort(
+        (a, b) =>
+          b.score - a.score ||
+          Date.parse(b.published_at) - Date.parse(a.published_at),
+      );
   }, [category, impact, market, period, query]);
 
-  const hasFilters = category !== 'all' || impact !== 'all' || market !== 'all' || period !== 'all' || query;
-  const opportunityCount = data.items.filter((item) => item.impact === 'opportunity').length;
-  const riskCount = data.items.filter((item) => item.impact === 'risk').length;
-  const topOpportunities = [...data.items]
+  const hasFilters =
+    category !== 'all' ||
+    impact !== 'all' ||
+    market !== 'all' ||
+    period !== 'all' ||
+    query;
+  const opportunityCount = displayItems.filter(
+    (item) => item.impact === 'opportunity',
+  ).length;
+  const riskCount = displayItems.filter(
+    (item) => item.impact === 'risk',
+  ).length;
+  const topOpportunities = [...displayItems]
     .filter((item) => item.impact === 'opportunity')
     .sort((a, b) => b.score - a.score)
     .slice(0, 3);
@@ -345,20 +491,43 @@ export function RadarApp() {
     <main className="min-h-screen bg-background text-foreground">
       <header className="sticky top-0 z-40 border-b border-border/80 bg-background/95 backdrop-blur-xl">
         <div className="mx-auto flex h-16 max-w-[1540px] items-center gap-4 px-4 sm:px-6 xl:px-8">
-          <a href="#top" className="flex shrink-0 items-center gap-3" aria-label="渡海首页">
+          <a
+            href="#top"
+            className="flex shrink-0 items-center gap-3"
+            aria-label="渡海首页"
+          >
             <span className="grid size-9 place-items-center rounded-xl bg-primary text-primary-foreground shadow-[0_8px_22px_rgba(210,66,35,.2)]">
               <Radar className="size-[18px]" aria-hidden="true" />
             </span>
             <div>
-              <p className="font-heading text-[17px] font-semibold leading-none tracking-[-0.02em]">渡海 · 出海情报</p>
-              <p className="mt-1 hidden font-mono text-[9px] uppercase tracking-[0.16em] text-muted-foreground sm:block">China brands, global signals</p>
+              <p className="font-heading text-[17px] font-semibold leading-none tracking-[-0.02em]">
+                渡海 · 出海情报
+              </p>
+              <p className="mt-1 hidden font-mono text-[9px] tracking-[0.16em] text-muted-foreground sm:block">
+                中国品牌 · 全球信号
+              </p>
             </div>
           </a>
 
-          <nav className="ml-8 hidden items-center gap-6 text-xs text-muted-foreground lg:flex" aria-label="主导航">
-            <a href="#signals" className="font-medium text-foreground">情报流</a>
-            <a href="#opportunities" className="transition-colors hover:text-foreground">机会雷达</a>
-            <a href="#cadence" className="transition-colors hover:text-foreground">回查机制</a>
+          <nav
+            className="ml-8 hidden items-center gap-6 text-xs text-muted-foreground lg:flex"
+            aria-label="主导航"
+          >
+            <a href="#signals" className="font-medium text-foreground">
+              情报流
+            </a>
+            <a
+              href="#opportunities"
+              className="transition-colors hover:text-foreground"
+            >
+              机会雷达
+            </a>
+            <a
+              href="#cadence"
+              className="transition-colors hover:text-foreground"
+            >
+              回查机制
+            </a>
           </nav>
 
           <div className="ml-auto flex items-center gap-2">
@@ -371,7 +540,11 @@ export function RadarApp() {
             </Button>
             <Button
               className="bg-foreground text-background hover:bg-foreground/85"
-              onClick={() => document.querySelector('#signals')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() =>
+                document
+                  .querySelector('#signals')
+                  ?.scrollIntoView({ behavior: 'smooth' })
+              }
             >
               今日简报 <ArrowRight data-icon="inline-end" />
             </Button>
@@ -379,7 +552,10 @@ export function RadarApp() {
         </div>
       </header>
 
-      <div id="top" className="mx-auto grid max-w-[1540px] gap-6 px-4 py-6 sm:px-6 lg:grid-cols-[214px_minmax(0,1fr)] xl:grid-cols-[214px_minmax(0,1fr)_286px] xl:px-8">
+      <div
+        id="top"
+        className="mx-auto grid max-w-[1540px] gap-6 px-4 py-6 sm:px-6 lg:grid-cols-[214px_minmax(0,1fr)] xl:grid-cols-[214px_minmax(0,1fr)_286px] xl:px-8"
+      >
         <aside className="hidden lg:block">
           <div className="sticky top-[88px]">
             <p className="eyebrow px-3">情报域</p>
@@ -387,7 +563,10 @@ export function RadarApp() {
               {categoryOptions.map((option) => {
                 const Icon = option.icon;
                 const active = category === option.key;
-                const count = option.key === 'all' ? data.items.length : categoryCounts.get(option.key) ?? 0;
+                const count =
+                  option.key === 'all'
+                    ? displayItems.length
+                    : (categoryCounts.get(option.key) ?? 0);
                 return (
                   <button
                     key={option.key}
@@ -402,13 +581,18 @@ export function RadarApp() {
                   >
                     <Icon className="size-4" />
                     <span className="min-w-0 flex-1">{option.label}</span>
-                    <span className="font-mono text-[10px] opacity-65">{String(count).padStart(2, '0')}</span>
+                    <span className="font-mono text-[10px] opacity-65">
+                      {String(count).padStart(2, '0')}
+                    </span>
                   </button>
                 );
               })}
             </nav>
 
-            <div id="cadence" className="mt-8 rounded-2xl border border-border bg-card p-4">
+            <div
+              id="cadence"
+              className="mt-8 rounded-2xl border border-border bg-card p-4"
+            >
               <div className="flex items-center justify-between">
                 <p className="eyebrow">巡航节奏</p>
                 <RefreshCw className="size-3.5 text-signal" />
@@ -419,11 +603,20 @@ export function RadarApp() {
                   ['每周日', '回查本月'],
                   ['每月 1 日', '回查上月'],
                 ].map(([title, detail], index) => (
-                  <div key={title} className="grid grid-cols-[18px_1fr] gap-2.5">
-                    <span className={`mt-1 grid size-[18px] place-items-center rounded-full font-mono text-[8px] ${index === 0 ? 'bg-primary text-primary-foreground' : 'bg-muted text-muted-foreground'}`}>{index + 1}</span>
+                  <div
+                    key={title}
+                    className="grid grid-cols-[18px_1fr] gap-2.5"
+                  >
+                    <span
+                      className={`mt-1 grid size-[18px] place-items-center rounded-full font-mono text-[8px] ${index === 0 ? 'bg-primary text-primary-foreground' : 'bg-muted text-muted-foreground'}`}
+                    >
+                      {index + 1}
+                    </span>
                     <div>
                       <p className="text-xs font-medium">{title}</p>
-                      <p className="mt-0.5 text-[11px] text-muted-foreground">{detail}</p>
+                      <p className="mt-0.5 text-[11px] text-muted-foreground">
+                        {detail}
+                      </p>
                     </div>
                   </div>
                 ))}
@@ -437,20 +630,36 @@ export function RadarApp() {
             <div>
               <div className="flex items-center gap-2">
                 <span className="size-2 rounded-full bg-signal shadow-[0_0_0_5px_rgba(25,149,119,.10)]" />
-                <p className="eyebrow">{formatDateTime(data.meta.generated_at)} 已更新 · {reviewModeCopy[data.meta.review_mode] ?? '自动核查'}</p>
+                <p className="eyebrow">
+                  {formatDateTime(data.meta.generated_at)} 已更新 ·{' '}
+                  {reviewModeCopy[data.meta.review_mode] ?? '自动核查'}
+                </p>
               </div>
-              <h1 className="mt-3 max-w-3xl font-heading text-[clamp(1.85rem,4vw,3.35rem)] font-semibold leading-[1.08] tracking-[-0.055em]">把出海噪音，筛成可行动的信号。</h1>
-              <p className="mt-3 max-w-2xl text-sm leading-6 text-muted-foreground">为产品经理准备的中国品牌全球化雷达。追踪从货品、包装到获客、下单、履约与回款的完整链路。</p>
+              <h1 className="mt-3 max-w-3xl font-heading text-[clamp(1.85rem,4vw,3.35rem)] font-semibold leading-[1.08] tracking-[-0.055em]">
+                把出海噪音，筛成可行动的信号。
+              </h1>
+              <p className="mt-3 max-w-2xl text-sm leading-6 text-muted-foreground">
+                为产品经理准备的中国品牌全球化雷达。追踪从货品、包装到获客、下单、履约与回款的完整链路。
+              </p>
             </div>
             <div className="grid min-w-fit grid-cols-3 gap-px overflow-hidden rounded-xl border border-border bg-border text-center">
               {[
-                [String(data.items.length).padStart(2, '0'), '本期信号'],
+                [String(displayItems.length).padStart(2, '0'), '本期信号'],
                 [String(opportunityCount).padStart(2, '0'), '机会信号'],
-                [String(new Set(data.items.map((item) => item.market)).size).padStart(2, '0'), '覆盖市场'],
+                [
+                  String(
+                    new Set(displayItems.map((item) => item.market)).size,
+                  ).padStart(2, '0'),
+                  '覆盖市场',
+                ],
               ].map(([value, label]) => (
                 <div key={label} className="bg-card px-3 py-3 sm:px-4">
-                  <p className="font-mono text-xl font-semibold tracking-[-0.04em]">{value}</p>
-                  <p className="mt-0.5 whitespace-nowrap text-[10px] text-muted-foreground">{label}</p>
+                  <p className="font-mono text-xl font-semibold tracking-[-0.04em]">
+                    {value}
+                  </p>
+                  <p className="mt-0.5 whitespace-nowrap text-[10px] text-muted-foreground">
+                    {label}
+                  </p>
                 </div>
               ))}
             </div>
@@ -495,15 +704,33 @@ export function RadarApp() {
                   )}
                 </div>
                 <div className="flex flex-wrap items-center gap-2">
-                  <NativeSelect value={period} onChange={(event) => setPeriod(event.target.value)} aria-label="选择时间范围" className="flex-1 sm:flex-none">
-                    <NativeSelectOption value="all">全部时间</NativeSelectOption>
-                    <NativeSelectOption value="3d">最近 3 天</NativeSelectOption>
+                  <NativeSelect
+                    value={period}
+                    onChange={(event) => setPeriod(event.target.value)}
+                    aria-label="选择时间范围"
+                    className="flex-1 sm:flex-none"
+                  >
+                    <NativeSelectOption value="all">
+                      全部时间
+                    </NativeSelectOption>
+                    <NativeSelectOption value="3d">
+                      最近 3 天
+                    </NativeSelectOption>
                     <NativeSelectOption value="month">本月</NativeSelectOption>
                   </NativeSelect>
-                  <NativeSelect value={market} onChange={(event) => setMarket(event.target.value)} aria-label="选择市场" className="flex-1 sm:flex-none">
-                    <NativeSelectOption value="all">全部市场</NativeSelectOption>
+                  <NativeSelect
+                    value={market}
+                    onChange={(event) => setMarket(event.target.value)}
+                    aria-label="选择市场"
+                    className="flex-1 sm:flex-none"
+                  >
+                    <NativeSelectOption value="all">
+                      全部市场
+                    </NativeSelectOption>
                     {markets.map((itemMarket) => (
-                      <NativeSelectOption key={itemMarket} value={itemMarket}>{itemMarket}</NativeSelectOption>
+                      <NativeSelectOption key={itemMarket} value={itemMarket}>
+                        {itemMarket}
+                      </NativeSelectOption>
                     ))}
                   </NativeSelect>
                 </div>
@@ -511,10 +738,13 @@ export function RadarApp() {
               <div className="mt-3 flex items-center gap-2 overflow-x-auto border-t border-border pt-3 [scrollbar-width:none]">
                 <Filter className="mr-1 size-3.5 shrink-0 text-muted-foreground" />
                 {[
-                  ['all', `全部 ${data.items.length}`],
+                  ['all', `全部 ${displayItems.length}`],
                   ['opportunity', `机会 ${opportunityCount}`],
                   ['risk', `风险 ${riskCount}`],
-                  ['mixed', `混合 ${data.items.length - opportunityCount - riskCount}`],
+                  [
+                    'mixed',
+                    `混合 ${displayItems.length - opportunityCount - riskCount}`,
+                  ],
                 ].map(([key, label]) => (
                   <button
                     key={key}
@@ -526,16 +756,22 @@ export function RadarApp() {
                     {label}
                   </button>
                 ))}
-                <span className="ml-auto shrink-0 text-[11px] text-muted-foreground">按价值分排序</span>
+                <span className="ml-auto shrink-0 text-[11px] text-muted-foreground">
+                  按价值分排序
+                </span>
               </div>
             </div>
 
             <div className="mt-5 flex items-end justify-between gap-4">
               <div>
-                <p className="eyebrow">Intelligence Feed</p>
-                <h2 className="mt-1 font-heading text-xl font-semibold tracking-tight">值得你关注的变化</h2>
+                <p className="eyebrow">情报动态</p>
+                <h2 className="mt-1 font-heading text-xl font-semibold tracking-tight">
+                  值得你关注的变化
+                </h2>
               </div>
-              <p className="text-xs text-muted-foreground">找到 {filteredItems.length} 条信号</p>
+              <p className="text-xs text-muted-foreground">
+                找到 {filteredItems.length} 条信号
+              </p>
             </div>
 
             {filteredItems.length ? (
@@ -548,25 +784,44 @@ export function RadarApp() {
             ) : (
               <div className="mt-4 rounded-2xl border border-dashed border-border bg-card px-6 py-16 text-center">
                 <Compass className="mx-auto size-8 text-muted-foreground" />
-                <h3 className="mt-3 font-heading text-lg font-semibold">这片海域暂时没有信号</h3>
-                <p className="mt-1 text-sm text-muted-foreground">换一个品类、市场或时间范围试试。</p>
-                {hasFilters && <Button variant="outline" className="mt-4" onClick={resetFilters}>清除筛选</Button>}
+                <h3 className="mt-3 font-heading text-lg font-semibold">
+                  这片海域暂时没有信号
+                </h3>
+                <p className="mt-1 text-sm text-muted-foreground">
+                  换一个品类、市场或时间范围试试。
+                </p>
+                {hasFilters && (
+                  <Button
+                    variant="outline"
+                    className="mt-4"
+                    onClick={resetFilters}
+                  >
+                    清除筛选
+                  </Button>
+                )}
               </div>
             )}
           </section>
 
           <footer className="mt-10 border-t border-border py-6 text-xs leading-5 text-muted-foreground">
-            <p>渡海仅整理公开信息与编辑判断，不构成投资、法律或经营建议。原始事实以链接来源为准。</p>
+            <p>
+              渡海仅整理公开信息与编辑判断，不构成投资、法律或经营建议。原始事实以链接来源为准。
+            </p>
           </footer>
         </section>
 
         <aside className="hidden xl:block">
           <div className="sticky top-[88px] space-y-4">
-            <section id="opportunities" className="scroll-mt-24 rounded-2xl border border-border bg-card p-5">
+            <section
+              id="opportunities"
+              className="scroll-mt-24 rounded-2xl border border-border bg-card p-5"
+            >
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="eyebrow">Opportunity Radar</p>
-                  <h2 className="mt-1 font-heading text-base font-semibold">机会雷达</h2>
+                  <p className="eyebrow">机会排序</p>
+                  <h2 className="mt-1 font-heading text-base font-semibold">
+                    机会雷达
+                  </h2>
                 </div>
                 <span className="grid size-9 place-items-center rounded-full bg-emerald-50 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300">
                   <Sparkles className="size-4" />
@@ -578,17 +833,29 @@ export function RadarApp() {
                     key={item.id}
                     type="button"
                     onClick={() => {
-                      setQuery(item.brand);
-                      document.querySelector('#signals')?.scrollIntoView({ behavior: 'smooth' });
+                      setQuery(displayBrand(item.brand));
+                      document
+                        .querySelector('#signals')
+                        ?.scrollIntoView({ behavior: 'smooth' });
                     }}
                     className="group flex w-full items-start gap-3 py-3 text-left first:pt-0 last:pb-0"
                   >
-                    <span className="grid size-6 shrink-0 place-items-center rounded-full bg-muted font-mono text-[10px] text-muted-foreground">0{index + 1}</span>
-                    <span className="min-w-0 flex-1">
-                      <span className="block text-xs font-medium leading-5 group-hover:text-primary">{item.brand} · {item.market}</span>
-                      <span className="mt-0.5 line-clamp-2 block text-[11px] leading-4 text-muted-foreground">{item.title}</span>
+                    <span className="grid size-6 shrink-0 place-items-center rounded-full bg-muted font-mono text-[10px] text-muted-foreground">
+                      0{index + 1}
                     </span>
-                    <span className={`font-mono text-sm font-semibold ${scoreTone(item.score)}`}>{item.score.toFixed(1)}</span>
+                    <span className="min-w-0 flex-1">
+                      <span className="block text-xs font-medium leading-5 group-hover:text-primary">
+                        {displayBrand(item.brand)} · {item.market}
+                      </span>
+                      <span className="mt-0.5 line-clamp-2 block text-[11px] leading-4 text-muted-foreground">
+                        {toChineseText(item.title)}
+                      </span>
+                    </span>
+                    <span
+                      className={`font-mono text-sm font-semibold ${scoreTone(item.score)}`}
+                    >
+                      {item.score.toFixed(1)}
+                    </span>
                   </button>
                 ))}
               </div>
@@ -596,20 +863,28 @@ export function RadarApp() {
 
             <section className="rounded-2xl bg-foreground p-5 text-background">
               <div className="flex items-center justify-between">
-                <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-background/55">下次巡航</p>
+                <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-background/55">
+                  下次巡航
+                </p>
                 <CalendarClock className="size-4 text-primary" />
               </div>
-              <p className="mt-3 font-heading text-2xl font-semibold tracking-[-0.04em]">{formatDateTime(data.meta.next_run_at)}</p>
-              <p className="mt-1 text-xs text-background/60">上海时间 · 自动运行</p>
+              <p className="mt-3 font-heading text-2xl font-semibold tracking-[-0.04em]">
+                {formatDateTime(data.meta.next_run_at)}
+              </p>
+              <p className="mt-1 text-xs text-background/60">
+                上海时间 · 自动运行
+              </p>
               <div className="mt-4 border-t border-background/15 pt-4">
-                <p className="text-xs leading-5 text-background/75">下次为月度回查：复核上月全部来源，并补齐迟到或更新的事件。</p>
+                <p className="text-xs leading-5 text-background/75">
+                  下次为月度回查：复核上月全部来源，并补齐迟到或更新的事件。
+                </p>
               </div>
             </section>
 
             <section className="rounded-2xl border border-border bg-card p-5">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="eyebrow">Source Health</p>
+                  <p className="eyebrow">来源健康度</p>
                   <h2 className="mt-1 text-sm font-semibold">来源运行状态</h2>
                 </div>
                 <CheckCircle2 className="size-5 text-signal" />
@@ -617,14 +892,20 @@ export function RadarApp() {
               <div className="mt-4 h-1.5 overflow-hidden rounded-full bg-muted">
                 <div
                   className="h-full rounded-full bg-signal"
-                  style={{ width: `${Math.round((data.meta.source_health.healthy / Math.max(data.meta.source_health.total, 1)) * 100)}%` }}
+                  style={{
+                    width: `${Math.round((data.meta.source_health.healthy / Math.max(data.meta.source_health.total, 1)) * 100)}%`,
+                  }}
                 />
               </div>
               <div className="mt-3 flex items-center justify-between text-[11px] text-muted-foreground">
                 <span>{data.meta.source_health.healthy} 个正常</span>
                 <span>{data.meta.source_health.delayed} 个延迟</span>
               </div>
-              <button type="button" onClick={() => setImpact('all')} className="mt-4 flex w-full items-center justify-between rounded-xl bg-muted px-3 py-2.5 text-left text-xs font-medium hover:bg-secondary">
+              <button
+                type="button"
+                onClick={() => setImpact('all')}
+                className="mt-4 flex w-full items-center justify-between rounded-xl bg-muted px-3 py-2.5 text-left text-xs font-medium hover:bg-secondary"
+              >
                 查看全部来源
                 <ChevronRight className="size-3.5 text-muted-foreground" />
               </button>

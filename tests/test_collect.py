@@ -1,6 +1,6 @@
 import unittest
 
-from scripts.collect import canonicalize_url, classify_category, classify_impact, clean_text
+from scripts.collect import canonicalize_url, classify_category, classify_impact, clean_text, has_chinese_text
 
 
 class CollectorTests(unittest.TestCase):
@@ -10,6 +10,10 @@ class CollectorTests(unittest.TestCase):
 
     def test_html_is_removed(self):
         self.assertEqual(clean_text("<p>品牌 <strong>进入</strong> 新市场</p>"), "品牌 进入 新市场")
+
+    def test_chinese_text_detection(self):
+        self.assertTrue(has_chinese_text("希音在欧洲开设新门店"))
+        self.assertFalse(has_chinese_text("New store opens in Europe"))
 
     def test_category_keywords(self):
         self.assertEqual(classify_category("new warehouse and fulfillment network", "品牌与扩张"), "物流与履约")
