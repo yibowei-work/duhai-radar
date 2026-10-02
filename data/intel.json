@@ -1,18 +1,84 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-10-01T17:33:14+08:00",
-    "window_start": "2026-09-01",
-    "window_end": "2026-10-01",
-    "review_mode": "monthly_previous_month",
-    "next_run_at": "2026-10-02T11:00:00+08:00",
+    "generated_at": "2026-10-02T17:07:37+08:00",
+    "window_start": "2026-09-30",
+    "window_end": "2026-10-02",
+    "review_mode": "daily_3d",
+    "next_run_at": "2026-10-03T11:00:00+08:00",
     "source_health": {
-      "healthy": 6,
-      "delayed": 0,
+      "healthy": 5,
+      "delayed": 1,
       "total": 6
     }
   },
   "items": [
+    {
+      "id": "intel-6475a96e48da8c8f53",
+      "title": "双11杀疯了！淘宝出海20国同步！马云才是中国电商真正的出海教父 - ichaoqi.com",
+      "summary": "双11杀疯了！淘宝出海20国同步！马云才是中国电商真正的出海教父 ichaoqi.com",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-02T02:46:11+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "ichaoqi.com",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9MZTlQNGNBZVdXZGozSTcyRmVFbHFmTWlBQkZoRDA3RldRanZVZnlEQlEyTHAxXzBnSk1yYWJicmpqWGt3R3kxZC1qUk5RakRwM0FEb0pnWVgySGdBLWJEb25mQQ?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-77d0597a3304b41ef3",
+      "title": "日订单超200万！中国卖家在新平台闷声发财 - 雨果跨境",
+      "summary": "日订单超200万！中国卖家在新平台闷声发财 雨果跨境",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-02T02:00:00+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "雨果跨境",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA5Q3ByQTUtTnVHY181blBiR2pUZ3FaSXdSNkN5SnBaUW8td2l2NVRXT0pQVXhmQTNkVDM2d0doMFNfaWlsTVpSdnRBRVY?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-fea5bc1efdcdf67337",
+      "title": "汽开区举办汽车零部件出海培训对接会 - 搜狐网",
+      "summary": "汽开区举办汽车零部件出海培训对接会 搜狐网",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-10-01T14:18:04+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "搜狐网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRWVVM1hGeVpBNFoyQVFtT0RnVHpNVWRlb0ZyanBzcU81N0NtYThCUV9RYWtpM3lfby0zM1h6SHJrRVhxRzJVLWY3ekg0WnpnSjZxcVl5UEpscWJNdWNuVEhWaU5FczZWd0FVLUk4WnZ0RHBYU2dmenJUd1MwUHdBcE50ZmIyMzlY?oc=5",
+      "tags": [
+        "品牌与扩张"
+      ]
+    },
     {
       "id": "intel-0de6b4884ae1b4404d",
       "title": "看见中国经济跃动新图景 | “硬实力”“稳底盘”“新生态”三重利好加持 新能源汽车出海“加速跑” - 搜狐网",
@@ -215,8 +281,8 @@
     },
     {
       "id": "intel-6c3127209cfc29edf0",
-      "title": "跨境日报：SHEIN首份财报净利增111.7% 欧美承压拉美成新引擎- 栏目 - 亿邦动力",
-      "summary": "跨境日报：SHEIN首份财报净利增111.7% 欧美承压拉美成新引擎- 栏目 亿邦动力",
+      "title": "跨境日报：SHEIN首份财报净利增111.7% 欧美承压拉美成新引擎- 栏目 - ebrun.com",
+      "summary": "跨境日报：SHEIN首份财报净利增111.7% 欧美承压拉美成新引擎- 栏目 ebrun.com",
       "pm_takeaway": "总量增长可能掩盖同店、复购、折扣与渠道库存的结构性变化。",
       "action": "按市场和用户分组拆分增长，补看复购、退货和折扣深度。",
       "published_at": "2026-09-30T09:01:55+00:00",
@@ -228,7 +294,7 @@
       "stage": "reported",
       "score": 7.4,
       "confidence": 70,
-      "source": "亿邦动力",
+      "source": "ebrun.com",
       "source_tier": "C",
       "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Zam44MGk5NjF3VEprT0dMR3BtbExBYUN1RjltTnlZc1pxa0x3MzA3QVdmQTBQSlY3WXhPTEdtS3lfMXdTWm41YlJZRnh6UndPTHVKSmdB?oc=5",
       "tags": [
@@ -325,6 +391,29 @@
       "tags": [
         "渠道与电商",
         "中东"
+      ]
+    },
+    {
+      "id": "intel-b6fa9a88cd1dcc539b",
+      "title": "对话Pattern：从多平台经营到AI购物 全球化品牌的下一步是什么？ - ebrun.com",
+      "summary": "对话Pattern：从多平台经营到AI购物 全球化品牌的下一步是什么？ ebrun.com",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-09-30T07:42:47+00:00",
+      "brand": "行业基础设施",
+      "market": "全球",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "ebrun.com",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBLYzdBaHZqUXZkb3dpanFlcWlVdTlsV3dPRUFUbkR0ZFpRM3pSdWx3S01xcjZuRlltNUt6T3FCXzJlZW5rU1E2SEVzNHJ0T2NBY2dPdkZB?oc=5",
+      "tags": [
+        "渠道与电商",
+        "全球"
       ]
     },
     {
@@ -464,8 +553,8 @@
     },
     {
       "id": "intel-56de1e1e2e1f0f60c0",
-      "title": "盘点：过去一年，Temu为融入欧洲做了哪些本土化动作？ - 亿邦动力",
-      "summary": "盘点：过去一年，Temu为融入欧洲做了哪些本土化动作？ 亿邦动力",
+      "title": "盘点：过去一年，Temu为融入欧洲做了哪些本土化动作？ - ebrun.com",
+      "summary": "盘点：过去一年，Temu为融入欧洲做了哪些本土化动作？ ebrun.com",
       "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
       "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
       "published_at": "2026-09-30T06:31:03+00:00",
@@ -477,7 +566,7 @@
       "stage": "reported",
       "score": 7.4,
       "confidence": 70,
-      "source": "亿邦动力",
+      "source": "ebrun.com",
       "source_tier": "C",
       "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE54ZFFtVlRncVVYNzh2c1NXNEZTWnc3dHRtcTA3cEdCWE1lM3hFSHluS2NCMi1GQ2NRa05SOWZoMHNZQzh3ZjlVdVI3Mk1pYWpzMmgyX3Fn?oc=5",
       "tags": [
@@ -933,8 +1022,8 @@
     },
     {
       "id": "intel-33a3b085207ccde8a3",
-      "title": "中国品牌出海·环球行（欧洲站）顺利举办--国际 - 人民网",
-      "summary": "中国品牌出海·环球行（欧洲站）顺利举办--国际 人民网",
+      "title": "中国品牌出海·环球行（欧洲站）顺利举办--国际 - world.people.com.cn",
+      "summary": "中国品牌出海·环球行（欧洲站）顺利举办--国际 world.people.com.cn",
       "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
       "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
       "published_at": "2026-09-30T00:38:00+00:00",
@@ -946,7 +1035,7 @@
       "stage": "reported",
       "score": 7.1,
       "confidence": 70,
-      "source": "人民网",
+      "source": "world.people.com.cn",
       "source_tier": "C",
       "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB4d21xRFFkUnlvblZFZWtqX2RZWnFEaXNrZVNPa0pGcS1iOGttbnE4dFdNYXFjOTJxb2htcGFYTUM2SXBPLThzRGR2MUJDN1hQU2xyb292YWtXQmtqc3QxaF9rR1liYXh4MHNr?oc=5",
       "tags": [
@@ -956,8 +1045,8 @@
     },
     {
       "id": "intel-3386c3033dc015c12f",
-      "title": "9月30日电商早报：希音上半年净利增111.7%；Shopify向AI智能体开放结账- 栏目 - 亿邦动力",
-      "summary": "9月30日电商早报：希音上半年净利增111.7%；Shopify向AI智能体开放结账- 栏目 亿邦动力",
+      "title": "9月30日电商早报：希音上半年净利增111.7%；Shopify向AI智能体开放结账- 栏目 - ebrun.com",
+      "summary": "9月30日电商早报：希音上半年净利增111.7%；Shopify向AI智能体开放结账- 栏目 ebrun.com",
       "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
       "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
       "published_at": "2026-09-29T22:30:41+00:00",
@@ -969,7 +1058,7 @@
       "stage": "reported",
       "score": 7.1,
       "confidence": 70,
-      "source": "亿邦动力",
+      "source": "ebrun.com",
       "source_tier": "C",
       "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOUWFQNXJpWWRLajZFWUkwamZ1ZmJfeGhpRzF2SFVXcklsd0dMbHJSS2tWLWVfNVM3Mm9GYlItNEpwZk9nZmNJdHVOUDkwcHM2SDF2dXdR?oc=5",
       "tags": [
