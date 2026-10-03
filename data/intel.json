@@ -1,11 +1,11 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-10-02T17:07:37+08:00",
-    "window_start": "2026-09-30",
-    "window_end": "2026-10-02",
+    "generated_at": "2026-10-03T16:40:48+08:00",
+    "window_start": "2026-10-01",
+    "window_end": "2026-10-03",
     "review_mode": "daily_3d",
-    "next_run_at": "2026-10-03T11:00:00+08:00",
+    "next_run_at": "2026-10-04T11:00:00+08:00",
     "source_health": {
       "healthy": 5,
       "delayed": 1,
@@ -13,6 +13,144 @@
     }
   },
   "items": [
+    {
+      "id": "intel-c9c3d7290a9bbf8760",
+      "title": "石烁：电商平台出海拉美为何要重视国别差异？ - fddi.fudan.edu.cn",
+      "summary": "石烁：电商平台出海拉美为何要重视国别差异？ fddi.fudan.edu.cn",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-03T05:26:15+00:00",
+      "brand": "行业基础设施",
+      "market": "拉美",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "fddi.fudan.edu.cn",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tWTVuOGxkNDVwY3V4cjV5bHdPR1ZCaVczY2FRYUwxRUdyM3NZVzRmMVJqZkt4WkpnTEw0UDR4U29OdlZkR1FFZzF6UzNkNmx0bmViNjlXbjV3M0FSNldyM1dxU3g?oc=5",
+      "tags": [
+        "渠道与电商",
+        "拉美"
+      ]
+    },
+    {
+      "id": "intel-68f3faaeb93557177b",
+      "title": "欧盟九成跨境网购流向Temu、SHEIN和速卖通 本土电商承压 - 全球定制网",
+      "summary": "欧盟九成跨境网购流向Temu、SHEIN和速卖通 本土电商承压 全球定制网",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-03T01:39:43+00:00",
+      "brand": "希音",
+      "market": "欧盟",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.4,
+      "confidence": 70,
+      "source": "全球定制网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ydUZ5WHJrVzg4YW4tYWJLb2tCZE5FcUxucndWb3FWSWZNckY4UU9keWtoX3FxNlhrQXV0ei0tM0VhdmsxVnFSeGpNWGp4QQ?oc=5",
+      "tags": [
+        "渠道与电商",
+        "欧盟",
+        "希音"
+      ]
+    },
+    {
+      "id": "intel-f0c0ed753a14b7d0cf",
+      "title": "9094筛号平台推出多通道验证解决方案，全面解决全球跨境CRM数据退化难题 - EIN Presswire",
+      "summary": "9094筛号平台推出多通道验证解决方案，全面解决全球跨境CRM数据退化难题 EIN Presswire",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-02T19:08:00+00:00",
+      "brand": "行业基础设施",
+      "market": "全球",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "EIN Presswire",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ESzQzS3FPWjZrZ0ZsU25uMFNOa1pNR21YZVNCWS0zd09rMFNTZGF0UkdkSF81blhwbDlLbHZBWnp1ZW9sMGdfV1ptejhmSXJGeWlmWmV5YU1YXzVmMU5iYW0yRlNkdw?oc=5",
+      "tags": [
+        "渠道与电商",
+        "全球"
+      ]
+    },
+    {
+      "id": "intel-80e9544ba17f4ec107",
+      "title": "宝马在欧洲导入代理直售模式，欧洲市场渠道变革对中国品牌出海格局影响深远 - 网通社",
+      "summary": "宝马在欧洲导入代理直售模式，欧洲市场渠道变革对中国品牌出海格局影响深远 网通社",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-02T15:03:09+00:00",
+      "brand": "行业基础设施",
+      "market": "欧洲",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "网通社",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqcnJwZUswMmZkQ29tYkRUV1J4b2FielpMcFRhS0JwV0drNFVJZ25SaDlPQlkxWlBzc3IyZTA2M1NOZEhSekhwYWRXUi1fTTliMTdFZ1dNQUpHWUU?oc=5",
+      "tags": [
+        "渠道与电商",
+        "欧洲"
+      ]
+    },
+    {
+      "id": "intel-a074a9deadb434996a",
+      "title": "今年前8个月上海口岸跨境电商出口1069.8亿元，同比增长28.7% - sohu.com",
+      "summary": "今年前8个月上海口岸跨境电商出口1069.8亿元，同比增长28.7% sohu.com",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-02T14:02:35+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "opportunity",
+      "stage": "reported",
+      "score": 7.3,
+      "confidence": 70,
+      "source": "sohu.com",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOVlNQkZlSGtZeHRLdExpRWYzeEpLQVhMNWdPWVlpUGpUV2V1WkZqakRabFRod21rdEFhUHI1TzE3TFZLNTQ4UnVxd1A0TzJickZIM0JkZzI2QXlkcDFPNFJQZHIxWEt6V0lPWTZIXzA5OXFIUklCTEUyTjd1TmpMQ240OXo3NGhFcGpJWQ?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-625d134d283c93e3c6",
+      "title": "重磅招商｜第十六届在日外国人国际商务交流展示会开启招募！微博Japan强势加盟，大咖演讲+头部企业齐聚东京！ - jpchinapress.com",
+      "summary": "重磅招商｜第十六届在日外国人国际商务交流展示会开启招募！微博Japan强势加盟，大咖演讲+头部企业齐聚东京！ jpchinapress.com",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-02T13:36:25+00:00",
+      "brand": "行业基础设施",
+      "market": "日本",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "jpchinapress.com",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcDY4LXFiV09fbE9ERTF5Z2lZN2JjZlFFZlRhbWh2a0NJUDE5QVdkVW0telhLcGRvSUhQRVh3Nl9GTUMxZFlibVR3aUhCeVA4ZjllNjVMQm81SGhBd3ZjTV9Ic3JYN1pOVjBscmlqWEYtdTNhS2J0V29TdW9fcDJZOEJzWXJBRWJ0QlE?oc=5",
+      "tags": [
+        "渠道与电商",
+        "日本"
+      ]
+    },
     {
       "id": "intel-6475a96e48da8c8f53",
       "title": "双11杀疯了！淘宝出海20国同步！马云才是中国电商真正的出海教父 - ichaoqi.com",
@@ -31,6 +169,28 @@
       "source": "ichaoqi.com",
       "source_tier": "C",
       "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9MZTlQNGNBZVdXZGozSTcyRmVFbHFmTWlBQkZoRDA3RldRanZVZnlEQlEyTHAxXzBnSk1yYWJicmpqWGt3R3kxZC1qUk5RakRwM0FEb0pnWVgySGdBLWJEb25mQQ?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-e96cf58a0107fc349f",
+      "title": "双11杀疯了！淘宝出海20国同步！马云才是中国电商真正的出海 - 财经号",
+      "summary": "双11杀疯了！淘宝出海20国同步！马云才是中国电商真正的出海 财经号",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-02T02:37:25+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "财经号",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9aeVU4WXNMUXo2YW1uVFhVWUdqXzBPX0MtT1J0akxIa3dxQjJOTl9uUWlUNWdyN1hldWJTSmtnQkhMaXdBcl9keGtWRENKUnQ1V093QkFTXzJIbXlwSEVnTmZkNHN0NkVSdUJZ?oc=5",
       "tags": [
         "渠道与电商"
       ]
