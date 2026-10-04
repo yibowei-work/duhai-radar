@@ -1,12 +1,7 @@
 {
   "version": 1,
-  "last_completed_anchor": "2026-10-03",
-  "last_success_at": "2026-10-03T16:40:48+08:00",
-  "last_review_mode": "daily_3d",
-  "source_failures": [
-    {
-      "id": "gdelt-china-brands",
-      "error": "HTTPError: HTTP Error 429: Too Many Requests"
-    }
-  ]
+  "last_completed_anchor": "2026-10-04",
+  "last_success_at": "2026-10-04T16:57:05+08:00",
+  "last_review_mode": "weekly_month_to_date",
+  "source_failures": []
 }

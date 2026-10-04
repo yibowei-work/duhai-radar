@@ -1,25 +1,138 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-10-03T16:40:48+08:00",
+    "generated_at": "2026-10-04T16:57:05+08:00",
     "window_start": "2026-10-01",
-    "window_end": "2026-10-03",
-    "review_mode": "daily_3d",
-    "next_run_at": "2026-10-04T11:00:00+08:00",
+    "window_end": "2026-10-04",
+    "review_mode": "weekly_month_to_date",
+    "next_run_at": "2026-10-05T11:00:00+08:00",
     "source_health": {
-      "healthy": 5,
-      "delayed": 1,
+      "healthy": 6,
+      "delayed": 0,
       "total": 6
     }
   },
   "items": [
     {
-      "id": "intel-c9c3d7290a9bbf8760",
-      "title": "石烁：电商平台出海拉美为何要重视国别差异？ - fddi.fudan.edu.cn",
-      "summary": "石烁：电商平台出海拉美为何要重视国别差异？ fddi.fudan.edu.cn",
+      "id": "intel-d037202f467f4ec3ca",
+      "title": "观“湘”门丨展会内外，“双年”行动中的湘潭贸促铺了什么路？ - 红网",
+      "summary": "观“湘”门丨展会内外，“双年”行动中的湘潭贸促铺了什么路？ 红网",
       "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
       "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
-      "published_at": "2026-10-03T05:26:15+00:00",
+      "published_at": "2026-10-04T06:40:51+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "红网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3NTRyOW43ZG9helJuUEZJelBkTzRRTnh4M1FTMTY4OHM3VkRiQXR3X0xseHBtQkZDdldDb1JYMlRCa2pMZjRZTUpFcHJIeWh0NEJJZmVMX0F0NVY1WG11SDJ3?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-268eaa8eed1fe084d0",
+      "title": "Temu品牌注册门户新增地理标志类别 权利人可直接举报侵权商品 - globalpod.cn",
+      "summary": "Temu品牌注册门户新增地理标志类别 权利人可直接举报侵权商品 globalpod.cn",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-10-04T06:29:31+00:00",
+      "brand": "拼多多跨境平台",
+      "market": "全球",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.4,
+      "confidence": 70,
+      "source": "globalpod.cn",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5FblNkQzZzaGRkdE00MHNJMXBFRkt5WDMyVXhsaFMxTjhYSkN2WGhFcENyTHpEdjZra3B5blJ2aU11Y1pFZlZhSTlnVFlEUQ?oc=5",
+      "tags": [
+        "品牌与扩张",
+        "全球",
+        "拼多多跨境平台"
+      ]
+    },
+    {
+      "id": "intel-35173af02aced63b3f",
+      "title": "保时捷确认2028年推出燃油版Macan，全球化布局调整对中国品牌出海意味着什么 - 网通社",
+      "summary": "保时捷确认2028年推出燃油版Macan，全球化布局调整对中国品牌出海意味着什么 网通社",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-10-04T02:26:08+00:00",
+      "brand": "行业基础设施",
+      "market": "全球",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "网通社",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE56WmtUeDIyMjJqUVdzcWJ1QzFIZ01JZFZCUGpCc3puNXp1b0M5aHdQOU0zZG9oMWRqU0Rjd2loRFpENFhGSExxWVpFM3ZMOXlPMWt4XzhQd2RDRFk?oc=5",
+      "tags": [
+        "品牌与扩张",
+        "全球"
+      ]
+    },
+    {
+      "id": "intel-443f2179034a45d14a",
+      "title": "奇瑞王琅：恶性竞争损害中国品牌声誉 出海还要不要“内卷”？ - 汽车之家",
+      "summary": "奇瑞王琅：恶性竞争损害中国品牌声誉 出海还要不要“内卷”？ 汽车之家",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-10-04T01:04:33+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "汽车之家",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJa05MZHJuTnE1TktKVTh4UXNuM3BDX0NtbzF0OVhIR0VtX0s3TUtBV1l0ZlIyRTBpU1BrRWNJMV84YzdFQWFmVVlLbEk2NjZETTR6bmFFTjU0QjM2WURIUzJKWm93ZTVKTHNB?oc=5",
+      "tags": [
+        "品牌与扩张"
+      ]
+    },
+    {
+      "id": "intel-9bf07e98bbbffbe9cb",
+      "title": "台湾消费者网购大陆商品带动“小三通”跨境电商出口火爆 - 经济频道",
+      "summary": "台湾消费者网购大陆商品带动“小三通”跨境电商出口火爆 经济频道",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-03T22:33:00+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "经济频道",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5hYVB6QVJiX0NtemthNTJ0bEdjNTgwX05YcWFjYm0wWjhHSDVVVTlXdmVnQVRzMkY4MkJvaDZBcXo0QWczek9BRXc4VG4xelh4Q0IzVVBIOTVnMlhJaXNuOWJoWmZNQS1hQTcyeXhjZW41T0RQQVdsazJJTQ?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-c9c3d7290a9bbf8760",
+      "title": "石烁：电商平台出海拉美为何要重视国别差异？ - 复旦发展研究院",
+      "summary": "石烁：电商平台出海拉美为何要重视国别差异？ 复旦发展研究院",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-03T05:32:36+00:00",
       "brand": "行业基础设施",
       "market": "拉美",
       "category": "渠道与电商",
@@ -28,7 +141,7 @@
       "stage": "reported",
       "score": 7.1,
       "confidence": 70,
-      "source": "fddi.fudan.edu.cn",
+      "source": "复旦发展研究院",
       "source_tier": "C",
       "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tWTVuOGxkNDVwY3V4cjV5bHdPR1ZCaVczY2FRYUwxRUdyM3NZVzRmMVJqZkt4WkpnTEw0UDR4U29OdlZkR1FFZzF6UzNkNmx0bmViNjlXbjV3M0FSNldyM1dxU3g?oc=5",
       "tags": [
@@ -149,6 +262,28 @@
       "tags": [
         "渠道与电商",
         "日本"
+      ]
+    },
+    {
+      "id": "intel-bf6b40297de0fd2fa4",
+      "title": "今年前8个月上海口岸跨境电商出口1069.8亿元，同比增长28.7%_上观新闻 - 上观新闻",
+      "summary": "今年前8个月上海口岸跨境电商出口1069.8亿元，同比增长28.7%_上观新闻 上观新闻",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-02T13:01:14+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "opportunity",
+      "stage": "reported",
+      "score": 7.3,
+      "confidence": 70,
+      "source": "上观新闻",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9FclF1SVpxaWJkVGpqd0VCeTlubFVnX1FibFAxSHRVNGM1NDdOcEJxRENwYThPamo1UXZjVFJuOUsxSG9GaE5JdW5lLVFNMlViX3hISVN2ZEQ?oc=5",
+      "tags": [
+        "渠道与电商"
       ]
     },
     {
@@ -274,7 +409,7 @@
       "signal_type": "market_entry",
       "impact": "mixed",
       "stage": "reported",
-      "score": 7.1,
+      "score": 6.7,
       "confidence": 70,
       "source": "广州日报新花城",
       "source_tier": "C",
@@ -282,6 +417,29 @@
       "tags": [
         "品牌与扩张",
         "全球"
+      ]
+    },
+    {
+      "id": "intel-2767ed45ea3ce0ffc9",
+      "title": "从苏北县城到米兰秀场，东海水晶穿戴甲“打”进欧洲时尚圈 - 紫牛新闻",
+      "summary": "从苏北县城到米兰秀场，东海水晶穿戴甲“打”进欧洲时尚圈 紫牛新闻",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-01T05:28:00+00:00",
+      "brand": "行业基础设施",
+      "market": "欧洲",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 6.7,
+      "confidence": 70,
+      "source": "紫牛新闻",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MbTVlRnVOVFRZZDZMbHhmX2o1VnhjTmkwUGdQMDM0eDd0bmRETWUyWmdiSm81c2t2UWctdlhWcXhwSkMxWE9OcW8yeExueEtCdU95LUducnFyekhPQVRkVEFjNGU2cm1xd2xzSzEwRQ?oc=5",
+      "tags": [
+        "渠道与电商",
+        "欧洲"
       ]
     },
     {
@@ -319,7 +477,7 @@
       "signal_type": "market_entry",
       "impact": "mixed",
       "stage": "reported",
-      "score": 7.1,
+      "score": 6.7,
       "confidence": 70,
       "source": "品玩",
       "source_tier": "C",
