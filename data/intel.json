@@ -1,18 +1,195 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-10-04T16:57:05+08:00",
-    "window_start": "2026-10-01",
-    "window_end": "2026-10-04",
-    "review_mode": "weekly_month_to_date",
-    "next_run_at": "2026-10-05T11:00:00+08:00",
+    "generated_at": "2026-10-05T17:44:51+08:00",
+    "window_start": "2026-10-03",
+    "window_end": "2026-10-05",
+    "review_mode": "daily_3d",
+    "next_run_at": "2026-10-06T11:00:00+08:00",
     "source_health": {
-      "healthy": 6,
-      "delayed": 0,
+      "healthy": 5,
+      "delayed": 1,
       "total": 6
     }
   },
   "items": [
+    {
+      "id": "intel-ffa9d2fea1d3c73807",
+      "title": "Chery 高层：海外恶性竞争影响中国品牌声誉，出海不是去收割！ - automachi.com",
+      "summary": "Chery 高层：海外恶性竞争影响中国品牌声誉，出海不是去收割！ automachi.com",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-10-05T06:50:31+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "automachi.com",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMWpJOWRFY3VCY1I1RnBtSy1oNElQLUwtQ3ZlQTJxdjFybTUyTFFfdjZTdXUzVG93Zk1ENUhMRWthUDRXSUJLbFNBMENIS0RydzNNQWtOY2UyMEJKQjRTcDY3UC10d3RrZFNFaWV6UUJuNUxOeHJRNnJpLU1rWFhRTGxUNDc2SnBfUV9BN1dFbU1LOFlx?oc=5",
+      "tags": [
+        "品牌与扩张"
+      ]
+    },
+    {
+      "id": "intel-d3ece70cff3890586e",
+      "title": "观“湘”门丨展会内外，“双年”行动中的湘潭贸促铺了什么路？ - 新浪新闻_手机新浪网",
+      "summary": "观“湘”门丨展会内外，“双年”行动中的湘潭贸促铺了什么路？ 新浪新闻_手机新浪网",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-05T04:50:00+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "新浪新闻_手机新浪网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0yOEZkeEdVbERCNllLcU5FZUc1dUFIX2JkZlJhSF84Snd5WmlDbEd3STdySGd2WDQ1Nk0tX09TcENjSEVXdTIwU3R4NThyXzdsQlpoeXVoeGxKbEFVWHhhaWpndzFYSzdwRkpBaGpVYnBsVnVpTEE?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-6c74f90b1bf059c892",
+      "title": "外贸数字员工上岗记 - tangshan.huanbohainews.com.cn",
+      "summary": "外贸数字员工上岗记 tangshan.huanbohainews.com.cn",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-05T01:32:24+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "tangshan.huanbohainews.com.cn",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBqeFIyTk1JdnJXSWJTaUhlLWpVRmdiZ1RIOHZWVEVWTGdiUlJ6TnJhUThxNHNnYUdLQ3VjcjVVdUczNndHcVp1YW9YV3NNTzBBZnk0ZGpiR292cElsbEg5dmxyZmc5QWE1RDFmbUdfTWtLOW5rQUlPcXRn?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-b8362526bfe6f363ae",
+      "title": "跨境电商未来当以品牌制胜 - 新浪财经",
+      "summary": "跨境电商未来当以品牌制胜 新浪财经",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-04T22:07:11+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "新浪财经",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12ZGptWEl6b2pjOUQ1OU1URFZtSVIzbTBGZXhOckdaQUtpVVExRVcySnpHYWRic0F3MjQxVlJsMjVPb1FmUnhQZmhMS1hhQ3dOQVlhdmlfYmtyREVZSmtrV0R1dWg4U3U2RnlaS2haV3NLYkZUdkoxVQ?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-01ccefdd3ac08825ab",
+      "title": "从凤首壶到跨境电商千年商都一路“开挂”|广州博物馆|广州市|广东省|瓷器|青釉_手机新浪网 - 新浪财经",
+      "summary": "从凤首壶到跨境电商千年商都一路“开挂”|广州博物馆|广州市|广东省|瓷器|青釉_手机新浪网 新浪财经",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-04T16:38:55+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "新浪财经",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vQ215Qnh5dFdwekFtODF0d2lWeFZ6MnFCdDBGSzJ5SmNQNzd6d1MzOThfdjNRdW10VldhV3dvZ1FhSEdQbjgwcU9lQnJlOWh6LVVNT3R2SDRaVEpFT013Z1d6YXllN1JaTXY3bjRBakxNVW95QTBHRk9jMUtsZDQ?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-b2d74c0ab8da864a87",
+      "title": "轻装提速 货通全球（扬帆出海 持续发力） - 搜狐网",
+      "summary": "轻装提速 货通全球（扬帆出海 持续发力） 搜狐网",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-10-04T16:00:00+00:00",
+      "brand": "行业基础设施",
+      "market": "全球",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "搜狐网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPb2pvUjRpYzE4TWV6SjRncXg3SDNjLV9IUEZEbkRHSFZPX1NBMGdabFU3VC1oVWZYNkp5LVJPZGNldEVETXRFTnNfUkF5ZlhUbHJ4eGhZcW5UQWlQLTJnSmdoQnVwWkcyejNGWFZUaFRhUlVnT1pfSlBIS1hsb1I4UnVMVGcyaGw1YVpEXw?oc=5",
+      "tags": [
+        "品牌与扩张",
+        "全球"
+      ]
+    },
+    {
+      "id": "intel-6413a625f37d08effd",
+      "title": "中国汽车加速出海：阿根廷首次举办中国汽车展 - 手机新浪网",
+      "summary": "中国汽车加速出海：阿根廷首次举办中国汽车展 手机新浪网",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-10-04T10:46:36+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "手机新浪网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5PUl95VG4wamtvLUJBeUFOMVNGcWdQcmxhWDA4Y2VlZzJTaFJuUGFhUmxLc0h0VFMzNTVyLVIwaW90ci1YOEh4bDNjZjZVQ3I1TE5BTTBHekR1MENGUkJ5WDJWRkpCSzkwNHZfdzFqMkdSOU9KaUgzeEhRZ09PUQ?oc=5",
+      "tags": [
+        "品牌与扩张"
+      ]
+    },
+    {
+      "id": "intel-2653982f15cf6aa224",
+      "title": "349个店铺被告！这类产品不能再卖了 - 雨果跨境",
+      "summary": "349个店铺被告！这类产品不能再卖了 雨果跨境",
+      "pm_takeaway": "判断底层能力能否跨品类复用，并把包装材料与法规证据纳入商品数据。",
+      "action": "挑一个代表性商品款，补齐材料、标签、证据与替代方案字段。",
+      "published_at": "2026-10-04T09:36:25+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "产品与包装",
+      "signal_type": "category_expansion",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "雨果跨境",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE82dDltLUpPWmtOZ0ZKekZMVmQxOWJKOWtleUgzVndGUVdfSjVicWVIUTEySEVUS3VNYzhwc0d2Y3QzR0JzSHhJdkptMTY?oc=5",
+      "tags": [
+        "产品与包装"
+      ]
+    },
     {
       "id": "intel-d037202f467f4ec3ca",
       "title": "观“湘”门丨展会内外，“双年”行动中的湘潭贸促铺了什么路？ - 红网",
@@ -83,6 +260,28 @@
       ]
     },
     {
+      "id": "intel-bae0fb42386ca12be5",
+      "title": "奇瑞王琅：恶性竞争损害中国品牌声誉 出海还要不要“内卷”？ - 车家号",
+      "summary": "奇瑞王琅：恶性竞争损害中国品牌声誉 出海还要不要“内卷”？ 车家号",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-10-04T01:24:59+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "车家号",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51UnVlVjdhUTlwYTh5VWZZdkhGY2d2MkIwRzRTNGNsZEV4RERxTk1nYmROLVRBd3c5V3VkVWlEbnZrMWlrQ1l5eVRnX3JBMmhfT1B2V0tCRm5fSHgxeHc?oc=5",
+      "tags": [
+        "品牌与扩张"
+      ]
+    },
+    {
       "id": "intel-443f2179034a45d14a",
       "title": "奇瑞王琅：恶性竞争损害中国品牌声誉 出海还要不要“内卷”？ - 汽车之家",
       "summary": "奇瑞王琅：恶性竞争损害中国品牌声誉 出海还要不要“内卷”？ 汽车之家",
@@ -105,9 +304,31 @@
       ]
     },
     {
+      "id": "intel-6b0cee2164b47b21a3",
+      "title": "奇瑞王琅：出海不是去收割，海外恶性竞争损害所有中国品牌声誉_热点推荐 - auto.stockstar.com",
+      "summary": "奇瑞王琅：出海不是去收割，海外恶性竞争损害所有中国品牌声誉_热点推荐 auto.stockstar.com",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-10-04T00:00:00+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "auto.stockstar.com",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00YzdxVURiT0xKR1Nkc2xWVWJmbklmeWNacC12RUdwN0RPbksxdVpsWkVibVI1b25tLWdkU016NXdVb0xCNW5KOUFrd2cwS1R0cW9aaC1lQllGakJ2R0gwRQ?oc=5",
+      "tags": [
+        "品牌与扩张"
+      ]
+    },
+    {
       "id": "intel-9bf07e98bbbffbe9cb",
-      "title": "台湾消费者网购大陆商品带动“小三通”跨境电商出口火爆 - 经济频道",
-      "summary": "台湾消费者网购大陆商品带动“小三通”跨境电商出口火爆 经济频道",
+      "title": "台湾消费者网购大陆商品带动“小三通”跨境电商出口火爆 - jingji.cctv.com",
+      "summary": "台湾消费者网购大陆商品带动“小三通”跨境电商出口火爆 jingji.cctv.com",
       "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
       "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
       "published_at": "2026-10-03T22:33:00+00:00",
@@ -119,7 +340,7 @@
       "stage": "reported",
       "score": 7.1,
       "confidence": 70,
-      "source": "经济频道",
+      "source": "jingji.cctv.com",
       "source_tier": "C",
       "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5hYVB6QVJiX0NtemthNTJ0bEdjNTgwX05YcWFjYm0wWjhHSDVVVTlXdmVnQVRzMkY4MkJvaDZBcXo0QWczek9BRXc4VG4xelh4Q0IzVVBIOTVnMlhJaXNuOWJoWmZNQS1hQTcyeXhjZW41T0RQQVdsazJJTQ?oc=5",
       "tags": [
