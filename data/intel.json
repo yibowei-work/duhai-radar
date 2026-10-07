@@ -1,18 +1,86 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-10-06T17:32:31+08:00",
-    "window_start": "2026-10-04",
-    "window_end": "2026-10-06",
+    "generated_at": "2026-10-07T17:28:43+08:00",
+    "window_start": "2026-10-05",
+    "window_end": "2026-10-07",
     "review_mode": "daily_3d",
-    "next_run_at": "2026-10-07T11:00:00+08:00",
+    "next_run_at": "2026-10-08T11:00:00+08:00",
     "source_health": {
-      "healthy": 6,
-      "delayed": 0,
+      "healthy": 5,
+      "delayed": 1,
       "total": 6
     }
   },
   "items": [
+    {
+      "id": "intel-ef23446e40bc0907c2",
+      "title": "假日跨境贸易火热、外贸动能持续释放 跨境电商“买全球、卖全球”加速跑 - 华商网",
+      "summary": "假日跨境贸易火热、外贸动能持续释放 跨境电商“买全球、卖全球”加速跑 华商网",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-07T08:48:11+00:00",
+      "brand": "行业基础设施",
+      "market": "全球",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "华商网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5ZE5iREkzR29NQ1J1OUhLeTA4S0Zpejh3VUMtbXNTSjU0ZjZ4aXk0d2xoTlZxVHltQkxORnJNQXVVRmM2N1Y1cW9ZWkplSlVOMGRPY3E4RW90NkxUbWlz?oc=5",
+      "tags": [
+        "渠道与电商",
+        "全球"
+      ]
+    },
+    {
+      "id": "intel-269e250b63a3bdc7b1",
+      "title": "ChatGPT Shopping 虚拟试穿上线！AI 试衣 + 商品收藏，重塑跨境网购体验 - 全球定制网",
+      "summary": "ChatGPT Shopping 虚拟试穿上线！AI 试衣 + 商品收藏，重塑跨境网购体验 全球定制网",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-10-07T06:46:24+00:00",
+      "brand": "行业基础设施",
+      "market": "全球",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "opportunity",
+      "stage": "reported",
+      "score": 7.3,
+      "confidence": 70,
+      "source": "全球定制网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBrSmFjY1ZOdGl0WWxJX1VqSnFFeGNYeDd1NWIwekE5LXFzZEJlOG1lNzZZRGxwWlYySDdtaU1fS1A5Z3ZpSTlQckFTN292Zw?oc=5",
+      "tags": [
+        "品牌与扩张",
+        "全球"
+      ]
+    },
+    {
+      "id": "intel-72e3e05b57d13d9f43",
+      "title": "聚力数智向未来 - 搜狐网",
+      "summary": "聚力数智向未来 搜狐网",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-06T16:00:00+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "搜狐网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbmZQc2lhQmpfOEs3aWdUM0hTMzZ2MGt2RHMtWDVKUHBQSWR3TExGWVNSX0lXQ1VVN1lMUVA1R3AwM3VaVXFrZFhpTnBrajFTOThDY0Y4dHNTdUtENC0ybUR2d1BEc1gzbWRiVXdrUHV5aHRxcU9LaVpZbEdqWVZPV1hDSnh0UGVhYlJXMg?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
     {
       "id": "intel-b5a44cd619b0421b47",
       "title": "2026上半年跨境电商大卖财报：增收不增利成常态，27家企业营收利润分化明显 - 虎嗅网",
@@ -33,6 +101,29 @@
       "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBDcHBZaXpKa1BQUGhzLWRVeFJhNVlMOTY3ZHAtS0VfNlBLNTA4N2ZxMFBMc3k0azZrSjBuS3ZjLUhJd2V3Y1VIRDhRcVpEMDFKMmdydTNCclNQS1kzbVNj?oc=5",
       "tags": [
         "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-90fff912bb6fd64c53",
+      "title": "让好物“云”销全球 - 江西新闻网",
+      "summary": "让好物“云”销全球 江西新闻网",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-10-06T07:05:05+00:00",
+      "brand": "行业基础设施",
+      "market": "全球",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "江西新闻网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE51dUFBRlM1Q1RHZUFSdGFCbEkyTVFOcFZMZU9RcTdTTFFlRGVvckxFRzE0T1JpUUNvS2UtaHZSdjdCa2Z1UnZOci04cUJvVG00bUJueHM3NEY0S0FLRGRXRlZndw?oc=5",
+      "tags": [
+        "品牌与扩张",
+        "全球"
       ]
     },
     {
@@ -100,6 +191,28 @@
       "tags": [
         "品牌与扩张",
         "全球"
+      ]
+    },
+    {
+      "id": "intel-d961d2c089d6340c88",
+      "title": "一台“小挖”卖到1万美元，济宁工厂如何闯进亚马逊？丨“新”卖家故事⑰ - 雨果跨境",
+      "summary": "一台“小挖”卖到1万美元，济宁工厂如何闯进亚马逊？丨“新”卖家故事⑰ 雨果跨境",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-05T21:42:06+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "雨果跨境",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBUb0NLUXJQd0w0eTJ5aDQtWjFURUJFLXFRMi1mdHNOTzgxWUFRV19aUTVoSmgyRDQ4VnB4ZTdkdDZmczZlRy1HVmJhRmw?oc=5",
+      "tags": [
+        "渠道与电商"
       ]
     },
     {
@@ -234,6 +347,29 @@
       "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XcERwakpTN1VKUXRXdTZ6aXA2NTlrZnFSQlYwLTF5YjNPR3JzZlQyTXlUZHVuWE5GeXNmUTdOZkhuczgxRUZGay1zdkF6X2d2SHZFeU53?oc=5",
       "tags": [
         "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-e328dbe5d185e166dc",
+      "title": "轻装提速 货通全球 - 新华网",
+      "summary": "轻装提速 货通全球 新华网",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-10-04T22:51:13+00:00",
+      "brand": "行业基础设施",
+      "market": "全球",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "新华网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd2ZrTWRvc1hBZHRXQjRvSVJCaDBjZVFXV2w5NFpvZmpseElRY1d6ZjJRRU01dHpaU0ZTeU4wWUN4LXhDWkM3ZVExeFVBWHF3M0prOTlzaW95aGJleVF6bDNaTExHcGlkM3pVZTloOWs2SDVab0UzWVpnYzA4d1kyVjVn?oc=5",
+      "tags": [
+        "品牌与扩张",
+        "全球"
       ]
     },
     {
