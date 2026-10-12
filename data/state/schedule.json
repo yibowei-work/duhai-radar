@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "last_completed_anchor": "2026-10-11",
-  "last_success_at": "2026-10-11T17:25:02+08:00",
-  "last_review_mode": "weekly_month_to_date",
+  "last_completed_anchor": "2026-10-12",
+  "last_success_at": "2026-10-12T17:56:12+08:00",
+  "last_review_mode": "daily_3d",
   "source_failures": [
     {
       "id": "gdelt-china-brands",
