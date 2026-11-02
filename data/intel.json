@@ -1,11 +1,11 @@
 {
   "version": 1,
   "meta": {
-    "generated_at": "2026-11-01T17:51:44+08:00",
-    "window_start": "2026-10-01",
-    "window_end": "2026-11-01",
-    "review_mode": "monthly_previous_month",
-    "next_run_at": "2026-11-02T11:00:00+08:00",
+    "generated_at": "2026-11-02T18:12:44+08:00",
+    "window_start": "2026-10-31",
+    "window_end": "2026-11-02",
+    "review_mode": "daily_3d",
+    "next_run_at": "2026-11-03T11:00:00+08:00",
     "source_health": {
       "healthy": 6,
       "delayed": 0,
@@ -13,6 +13,478 @@
     }
   },
   "items": [
+    {
+      "id": "intel-77e97db2733fc9eb68",
+      "title": "法护营商 法促创新 杭州上线“杭州合规码”服务重点产业 - ori.hangzhou.com.cn",
+      "summary": "法护营商 法促创新 杭州上线“杭州合规码”服务重点产业 ori.hangzhou.com.cn",
+      "pm_takeaway": "规则不是发布日一次性事件，要持续跟踪生效日、实施细则与执法案例。",
+      "action": "把生效日期、适用品类、证据要求和负责人写进合规日历。",
+      "published_at": "2026-11-02T10:09:22+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "政策与合规",
+      "signal_type": "regulation_proposed",
+      "impact": "opportunity",
+      "stage": "reported",
+      "score": 7.3,
+      "confidence": 70,
+      "source": "ori.hangzhou.com.cn",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE05YWdnZld6bll6eXQzT3JUeXlxUVBPTTJCSm5rRDZoLWVtRXJMWm02T2pJcE1HVUpiWEt0V3BBTkY1X0tabHJpMW8wMkx4VWllN0FKdk1OMi1GVmF0Rmp5Vmx0blhIaHZQcXJTLWZPQ05ZQnlUV2J4WHNRUFBudw?oc=5",
+      "tags": [
+        "政策与合规"
+      ]
+    },
+    {
+      "id": "intel-a7fa0cc5b3a6f5ed09",
+      "title": "2026年最新POD跨境动态：平台费率变动与旺季7大信号-GlobalPOD - 全球定制网",
+      "summary": "2026年最新POD跨境动态：平台费率变动与旺季7大信号-GlobalPOD 全球定制网",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-11-02T09:59:25+00:00",
+      "brand": "行业基础设施",
+      "market": "全球",
+      "category": "品牌与扩张",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "全球定制网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9kcnpaSmVmeUtUaG9RUWRNd1lpQTNUbnF0LUxpUS1DWHBtTXRMdDhMeVk2TG5CLWl0QzFUajdMQWRqd195RzZpNFdFQXhsdw?oc=5",
+      "tags": [
+        "品牌与扩张",
+        "全球"
+      ]
+    },
+    {
+      "id": "intel-a581473231fa070732",
+      "title": "10月跨境电商：亚马逊 eBay双双裁员 跨境通原全资子公司破产 - 潮新闻客户端",
+      "summary": "10月跨境电商：亚马逊 eBay双双裁员 跨境通原全资子公司破产 潮新闻客户端",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-11-02T09:55:07+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "潮新闻客户端",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5IbUF5YnducDc4eDNuYnh4dWV1VFd6MzFoNTRJNEw4ZjQ2Mm5RaTRxeGxCTzgybW5KSmFWMk1vcjA1WFpLZkxrbmxXTUVHZWdhc2hqQkVCd2ktRHA0VVVWMmN1VEhGNFRwRFpWQ1pFR0tRZWs?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-7c8457089756448979",
+      "title": "Payful 与 eMAG 达成官方收款合作，共建中东欧跨境电商资金链路“新基建” - 凤凰网",
+      "summary": "Payful 与 eMAG 达成官方收款合作，共建中东欧跨境电商资金链路“新基建” 凤凰网",
+      "pm_takeaway": "支付创新要同时观察转化率、授权体验、拒付与跨境结算成本。",
+      "action": "画出一次跨境支付的授权、风控、清算与争议链路。",
+      "published_at": "2026-11-02T07:57:09+00:00",
+      "brand": "行业基础设施",
+      "market": "中东",
+      "category": "支付与金融",
+      "signal_type": "checkout_change",
+      "impact": "opportunity",
+      "stage": "reported",
+      "score": 7.3,
+      "confidence": 70,
+      "source": "凤凰网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9mSDc3bEpSVU1wTUVxYmFyM0pEVnVuR3hvRGZoaG9uc2hxNXZLOFNYM2hmVDVzVk9rU0pDU3pfR2c0RUlidXAzeFlDMjk?oc=5",
+      "tags": [
+        "支付与金融",
+        "中东"
+      ]
+    },
+    {
+      "id": "intel-bb805da6c97554fffe",
+      "title": "从“卖全球”到“链全球” 义乌开放发展活力涌动 - 上观新闻",
+      "summary": "从“卖全球”到“链全球” 义乌开放发展活力涌动 上观新闻",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-11-02T07:45:00+00:00",
+      "brand": "行业基础设施",
+      "market": "全球",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "上观新闻",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KVjJWeUxoNEdKa21WWU5iQ01CeGlqeTBIYkp4TUU3MGEyTEFYTFBCZXhhaTZZOTk1SlV0WGo0R0puMWZIdHJmNjdFYVMzRlgyTElIc0hyaGs4dw?oc=5",
+      "tags": [
+        "品牌与扩张",
+        "全球"
+      ]
+    },
+    {
+      "id": "intel-c7ca721ec712dbaa49",
+      "title": "2026长三角跨境电商产业招商推介发布会即将举办 - 中华网",
+      "summary": "2026长三角跨境电商产业招商推介发布会即将举办 中华网",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-11-02T06:34:17+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "product_launch",
+      "impact": "opportunity",
+      "stage": "reported",
+      "score": 7.3,
+      "confidence": 70,
+      "source": "中华网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1KWG00eTFoTVFxSU5oVjl3dDRtczh4WElkaUMtUm9kLVJpejJwX0thX3U0eUFCb0s0cjBfR1BjbktmV0VJMHhFVUpabTJlbV9lRWVDSlJCTWtrRW1ka0RvbURGZ3ZNRWk3a3dGRDl3?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-c29f08ae5e6b4a17e2",
+      "title": "异动快报：众鑫股份（603091）11月2日13点51分触及涨停板 - 搜狐网",
+      "summary": "异动快报：众鑫股份（603091）11月2日13点51分触及涨停板 搜狐网",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-11-02T05:56:51+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "搜狐网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbU9SWGVla21CNTBtazRQdFN6eDg5VUppeUtiMHNmYXBib3kxZ0QxQXE4b0k3cHBDcTJEWDRNZXhobnF5bTJYZHEtWE5xODktUVM0cUFjNHlueEluX0plcHgtSWlvNVNaMmtuZXJzQnRjTXZFdG5zbmJmNUhGem1Fb1pBVTZwMHBp?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-036e3dd54d07e287c4",
+      "title": "欧盟新增2欧元跨境包裹处理费，两轮政策相继落地，对欧直邮中国电商遭遇考验- 深度 - www.expressboo.com",
+      "summary": "欧盟新增2欧元跨境包裹处理费，两轮政策相继落地，对欧直邮中国电商遭遇考验- 深度 www.expressboo.com",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-11-02T05:48:00+00:00",
+      "brand": "行业基础设施",
+      "market": "欧盟",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "www.expressboo.com",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1mT3BVS0Q3WlVLWEhXS3pUbV94dlRxZmhNY1Jna3loOUc0T01fd0pydzBHdVdYYzdISkptQ3ZjaVlCbExHUVZxS1FIZERXQ1hhczd3d2VKbk0?oc=5",
+      "tags": [
+        "渠道与电商",
+        "欧盟"
+      ]
+    },
+    {
+      "id": "intel-8be0d41e576045f0ef",
+      "title": "欧盟11月起再增两条跨境货件新规：加2欧元海关处理费强制申报商品编码- 跨境电商 - 亿邦动力网",
+      "summary": "欧盟11月起再增两条跨境货件新规：加2欧元海关处理费强制申报商品编码- 跨境电商 亿邦动力网",
+      "pm_takeaway": "规则不是发布日一次性事件，要持续跟踪生效日、实施细则与执法案例。",
+      "action": "把生效日期、适用品类、证据要求和负责人写进合规日历。",
+      "published_at": "2026-11-02T04:47:08+00:00",
+      "brand": "行业基础设施",
+      "market": "欧盟",
+      "category": "政策与合规",
+      "signal_type": "regulation_proposed",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "亿邦动力网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvcWtGcEtvTllIelZvM2tSR2RkV0E2NGlfLTRVY0YwdnItYlBab1pNekFBVXNaM2k1UG5oUmtKRnZlQ2gwUXNtWmN0TmthaVpHa1Eta2x3?oc=5",
+      "tags": [
+        "政策与合规",
+        "欧盟"
+      ]
+    },
+    {
+      "id": "intel-239b1e89c27db417c7",
+      "title": "“2026闽商跨境的力量”行业生态发展大会在福州隆重举办 - 雨果跨境",
+      "summary": "“2026闽商跨境的力量”行业生态发展大会在福州隆重举办 雨果跨境",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-11-02T03:31:51+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "雨果跨境",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5SVHUySFo2NmlYY1IzbENfRkg4c01BWUxpV0N5cmVOTXg2R29qV1FWdXFpSjNzU3RYamVtWWk0ZnpRRGxVVkE5MDE1Ulc?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-1482ddd01aaa82fdcb",
+      "title": "希音亮相第140届广交会，“技术创新+人才培养”赋能时尚企业高质量出海 - 36氪出海",
+      "summary": "希音亮相第140届广交会，“技术创新+人才培养”赋能时尚企业高质量出海 36氪出海",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-11-02T03:30:54+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "36氪出海",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1RcXRWVnZLbkd4dHVJaTBFaTk5S1U0bExTR0wzSFVWMUtFaWlPYmpTOWIxUVlrdV96UWE3ZksyUm50YkpPSUE?oc=5",
+      "tags": [
+        "品牌与扩张"
+      ]
+    },
+    {
+      "id": "intel-656685dc8072a9a137",
+      "title": "AI时代跨境电商的挑战与机遇高端对话会在临沂科技职业学院成功举办 - 鲁网",
+      "summary": "AI时代跨境电商的挑战与机遇高端对话会在临沂科技职业学院成功举办 鲁网",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-11-02T03:25:38+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "鲁网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pYVIxemRKajNnS21pa3A5dlNNUDBOR3dGZlpzdUc0ZzZJSncyT2dKMDVCOWtwZ2p6eHhKaThNR05WR1NGaDVPZnVSVllQSlhmZlVtQ3MwWGNHRjlWcExuenJDZk94dEd3MGc?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-0b1ae3f51e99574f56",
+      "title": "1小时销售额超200万欧元！这个卖家是如何搞定欧洲消费者 - 雨果跨境",
+      "summary": "1小时销售额超200万欧元！这个卖家是如何搞定欧洲消费者 雨果跨境",
+      "pm_takeaway": "总量增长可能掩盖同店、复购、折扣与渠道库存的结构性变化。",
+      "action": "按市场和用户分组拆分增长，补看复购、退货和折扣深度。",
+      "published_at": "2026-11-02T02:37:59+00:00",
+      "brand": "行业基础设施",
+      "market": "欧洲",
+      "category": "市场与消费",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "雨果跨境",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9FeVlLRFEtX1RQOGFpazQya2preHZhbEVhODhBNGgza1dvR19qa2g5OVdTWEcyUE9RYnZPR2xlVzkxNnZNZ3JSZ1AxamM?oc=5",
+      "tags": [
+        "市场与消费",
+        "欧洲"
+      ]
+    },
+    {
+      "id": "intel-7de0ead4e2fd7d5a71",
+      "title": "一天拿下200万订单！中国卖家在新平台低调捞金 - 雨果跨境",
+      "summary": "一天拿下200万订单！中国卖家在新平台低调捞金 雨果跨境",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-11-02T01:31:34+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "雨果跨境",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1fMTNsNUN6bGZfcjRQU21Xcmc5OVdCa21DQmZsR0lsb1RpemJ0Wk9BZW9VUmE2MF9UdHE4c0p1VHJxSldRN2pkVkFGR2c?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-7b054012f4c93c1e57",
+      "title": "“皮带一条街”的这家工厂，成中小企业数字化出海样本 - 证券之星",
+      "summary": "“皮带一条街”的这家工厂，成中小企业数字化出海样本 证券之星",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-11-02T00:53:49+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "证券之星",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBRWnI4NzVFb0RaaUNBZnJnT2lhMm9nbG1KU3lVQnlkYTdvR1l0TF8zUFRhcjFGTTI5bmR0emcwVklRamZCM045TkEtVkk0dm1Rd0luZ0NJNlVJUFROeVhoRA?oc=5",
+      "tags": [
+        "品牌与扩张"
+      ]
+    },
+    {
+      "id": "intel-b18b9ca3b3a9f0bd60",
+      "title": "027-50766666，从光谷出海链全球 - 武汉市商务局",
+      "summary": "027-50766666，从光谷出海链全球 武汉市商务局",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-11-02T00:48:48+00:00",
+      "brand": "行业基础设施",
+      "market": "全球",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "武汉市商务局",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE83eXhnd2xGR2duVVRGMTFhRUdfMUlyd29VTmFLSElUMHdIbXRXZEtZT2wyQXNpbnRETnJNSzY3QVJDUTBHTy1MUnZWVGdiSllPa3Fpai1udGR0YWxFLTItak5JWUI4MXllU3p0WE44U2RRQQ?oc=5",
+      "tags": [
+        "品牌与扩张",
+        "全球"
+      ]
+    },
+    {
+      "id": "intel-d3e6a789bf83e031a4",
+      "title": "火到海外的中国品牌还要自证“国籍”-yeeyi - yeeyi",
+      "summary": "火到海外的中国品牌还要自证“国籍”-yeeyi yeeyi",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-11-01T14:56:38+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "yeeyi",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GcEhCLWp4d0o2MjRPaEdudnU2SzR6b21LYzlwU0dEWTBiTUNSMGVrM1RyMTN3dnhhRGpaRWluYVVnb1F4UDlYUk5EalZ0eU0zZmdFb1B3?oc=5",
+      "tags": [
+        "品牌与扩张"
+      ]
+    },
+    {
+      "id": "intel-5b4abf34054c75e72d",
+      "title": "欧盟将对低价值跨境电商包裹征收固定关税和处理费，中国平台加速欧洲本地仓布局 - 虎嗅网",
+      "summary": "欧盟将对低价值跨境电商包裹征收固定关税和处理费，中国平台加速欧洲本地仓布局 虎嗅网",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-11-01T13:33:14+00:00",
+      "brand": "行业基础设施",
+      "market": "欧盟",
+      "category": "渠道与电商",
+      "signal_type": "tariff_change",
+      "impact": "risk",
+      "stage": "reported",
+      "score": 7.3,
+      "confidence": 70,
+      "source": "虎嗅网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51SDZ5QW5XY0k1REV0TXI4OWJ2TC1BYXh1TFN3RG1xV0lKZEVUc3J3WnU4OFZISkctUEdyT1pzX28wR0ZKWDdTbGhqTS1XbzloYnRLbg?oc=5",
+      "tags": [
+        "渠道与电商",
+        "欧盟"
+      ]
+    },
+    {
+      "id": "intel-8bbaa8f647be449ad1",
+      "title": "跨境电商周报：亚马逊Q3净销售额同增12%；TikTok管控AI直播；SHEIN加大半托管招商 - 亿邦动力网",
+      "summary": "跨境电商周报：亚马逊Q3净销售额同增12%；TikTok管控AI直播；SHEIN加大半托管招商 亿邦动力网",
+      "pm_takeaway": "把内容看作交易系统的一部分，联动选品、库存、达人和复购。",
+      "action": "拆解一次活动从素材到成交的完整漏斗，并记录可复用模块。",
+      "published_at": "2026-11-01T13:29:55+00:00",
+      "brand": "希音",
+      "market": "多市场",
+      "category": "营销与内容",
+      "signal_type": "campaign_launch",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.4,
+      "confidence": 70,
+      "source": "亿邦动力网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1JWkVUSzl1eTBxOE8wLTdtd1JWQkVPOTFfaU96VWdGY3huVXptMkdYYjc1RmRRdWd2QTJkUURMeVg1RWdDeHBPdHdSYUpwYnhPNXFqTWZ3?oc=5",
+      "tags": [
+        "营销与内容",
+        "希音"
+      ]
+    },
+    {
+      "id": "intel-71244f332be77a4d1b",
+      "title": "空中丝路达四海 航空枢纽托举陕西外贸增速领跑全国 - 中国民航网",
+      "summary": "空中丝路达四海 航空枢纽托举陕西外贸增速领跑全国 中国民航网",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-11-01T13:12:00+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "中国民航网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kLWhWSS1qaVJ4OElnYUhPSjJJRVhuUlhjY0hNTFh2aWhybmdON241dFA2WVJ5d1I1cE9Kb0RXNXZmQVZOVmhaa0VJYnlmTFNwSFFIMzlGNDFKU0hIQUJRSm0tc0pMSlhUcUhMSQ?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-b9d913adf56fd0dae6",
+      "title": "“中国品牌全球行·南宁站”活动启幕- 中国日报网 - China Daily",
+      "summary": "“中国品牌全球行·南宁站”活动启幕- 中国日报网 China Daily",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-11-01T11:24:29+00:00",
+      "brand": "行业基础设施",
+      "market": "全球",
+      "category": "品牌与扩张",
+      "signal_type": "campaign_launch",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "China Daily",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1YWlZPSVZtQkhmMHhnNWNGM2twMXpfV2JWOGFUcEpyUzk5eHF2QlVsSjZkNGFLeDNvaVJpRTFuaHUtU2VGUndzMjRaZk1QWnFmZnl5Ylh2YzdjX1ZJZHBnTEx4YW9laHBaSVZlRlVidWJkVFRfZXE5TGhnUm0?oc=5",
+      "tags": [
+        "品牌与扩张",
+        "全球"
+      ]
+    },
     {
       "id": "intel-223fd32b99a5ede0e2",
       "title": "秦安苹果走出国门俏销非洲 - www.gsjb.com",
@@ -36,6 +508,28 @@
       ]
     },
     {
+      "id": "intel-67304b4be8f5e411a4",
+      "title": "中非经贸总部大厦坦桑尼亚联络站授牌长沙经开区对非合作迈入海外实体落地新阶段-掌上长沙 - 长沙晚报",
+      "summary": "中非经贸总部大厦坦桑尼亚联络站授牌长沙经开区对非合作迈入海外实体落地新阶段-掌上长沙 长沙晚报",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-11-01T07:42:00+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "opportunity",
+      "stage": "reported",
+      "score": 7.3,
+      "confidence": 70,
+      "source": "长沙晚报",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9NVzhYdFBaYUExWThPMEZCQ2c1RGtwWXpLRGo0ZEhKa2FnYk9jbEtYZGJZTThpeDVGeEJqZ3dCVkhhdy1YZTJWQ0VadUctRnJ3RFdUMHNGdGlzaXk2RVJ2eUJB?oc=5",
+      "tags": [
+        "品牌与扩张"
+      ]
+    },
+    {
       "id": "intel-0e8ab25598f9214d39",
       "title": "叶立怡：跨境电商低价抢滩 本地食品玩具商难招架 - www.chinapress.com.my",
       "summary": "叶立怡：跨境电商低价抢滩 本地食品玩具商难招架 www.chinapress.com.my",
@@ -53,6 +547,28 @@
       "source": "www.chinapress.com.my",
       "source_tier": "C",
       "source_url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOc081NVI2bkJ6cTVxZmE0cExyYnlIYVlJTnF4aEJpLV80QklPOVhLd1cyR2J3ZVFiREtzc1VHdWNWWUFhQXo3S0NRZENqaWdnSzlQRkVXbGdBXzlMTVZlVXNNWTJxVE0zZDhvUFc3QTVULU9GMm9SUmhKbktYbDJUTU1HNjY1MEVGeVpHWl9JVkpIWHhKRE9MZWpKME1ZMzBFbWdRM2VnTUctaUNUb0dXYUNGbkd0WmdaSERsdmk5SUVmSVV4UVdaSlVUbTJZZmVHVHA5RVc3OE5sX2ZOSWtfdjNJWW5rUVlOTE9QX2hrMzJ1Zm8xdmQzQVhkYkVtOGdGMkw3T2lmT3dRUjJreHU3YlNFQjNGSk1qcWtJczE5R0JFRlZibFB3Sk9YWHozWEZUS2lyQTFDVlA0WjJDRkltYlhXZ0FBWW9VRE95cmRXUnh1ZnhuUEswS2dhMA?oc=5",
+      "tags": [
+        "渠道与电商"
+      ]
+    },
+    {
+      "id": "intel-743c07ffefde47efb3",
+      "title": "乌镇“网事”｜弥合数智鸿沟携手共赴普惠未来-国内新闻 - 水母网",
+      "summary": "乌镇“网事”｜弥合数智鸿沟携手共赴普惠未来-国内新闻 水母网",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-11-01T07:16:00+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "水母网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1lSE9EV3ZFWWFrb0RxSFViZWhXallFc0htZExnMkNBNzdNRjFjU3lYYWh3Y0ViMU8xR211RkxsLV95OUlTcFg3VGwzRUk1NEpnUUFtdGF4RUlCYkxIQXozTVFHSjU?oc=5",
       "tags": [
         "渠道与电商"
       ]
@@ -100,6 +616,28 @@
       "tags": [
         "渠道与电商",
         "欧盟"
+      ]
+    },
+    {
+      "id": "intel-2682188798be321d8c",
+      "title": "产业探厂+跨境对接！东莞虎门国际电商节助企“出海” - 广州日报新花城",
+      "summary": "产业探厂+跨境对接！东莞虎门国际电商节助企“出海” 广州日报新花城",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-11-01T05:27:12+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "广州日报新花城",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMFJkZDRQYUxiLXZ4N0Z1ZjVHZEtCa0hKUWctNVRVUWZoOHdaWW9hX2dCWVlqNHJiLXp2MHNrQ2MzYUhMbEJmZnBzMU9MaTc2cFUtYzlJM0ExdUJwQ0tlZzB2NU5OZlJNSUVqMFdnakN5YkhWZHhSenNHdHNfdm5BVFA0VXA?oc=5",
+      "tags": [
+        "渠道与电商"
       ]
     },
     {
@@ -236,6 +774,28 @@
       "tags": [
         "品牌与扩张",
         "全球"
+      ]
+    },
+    {
+      "id": "intel-395412fbec784f663c",
+      "title": "甘肃首单！96吨秦安苹果出口海外 - 央广网",
+      "summary": "甘肃首单！96吨秦安苹果出口海外 央广网",
+      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
+      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
+      "published_at": "2026-11-01T00:16:56+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "品牌与扩张",
+      "signal_type": "market_entry",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "央广网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9zQnBnZjd4YUtpUGFTcmVDMVh1X1h0alVKdWhPbzhJRi1YSXJncGZqeWduWEdXNl91QmliRndVQWJWNVZUMFlOSnhHaUJjdnBWSEpZMUJ3MjNjclZOSGR6alBCRThHOUV4V0haUQ?oc=5",
+      "tags": [
+        "品牌与扩张"
       ]
     },
     {
@@ -546,6 +1106,28 @@
       "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tZ1R4dzlGenlWYUJ4VjR6NkpzMWJOTEFTdVpYclJLdmRqZVJxQUFxVVJUTzNqMGZpd0dlX29JbVpZbS1sbDduR0VVQWhqd3ZuVTA4d1VGbmhDcE5maFdjWA?oc=5",
       "tags": [
         "品牌与扩张"
+      ]
+    },
+    {
+      "id": "intel-6ff3e164a338285e5b",
+      "title": "闽商链接四海 世界触屏可及 - 福州新闻网",
+      "summary": "闽商链接四海 世界触屏可及 福州新闻网",
+      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
+      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
+      "published_at": "2026-10-30T16:52:29+00:00",
+      "brand": "行业基础设施",
+      "market": "多市场",
+      "category": "渠道与电商",
+      "signal_type": "platform_rule",
+      "impact": "mixed",
+      "stage": "reported",
+      "score": 7.1,
+      "confidence": 70,
+      "source": "福州新闻网",
+      "source_tier": "C",
+      "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JT0NmS3JHQlB0QTc0VnhPS1JtV3NUVmhsM0k2WXhXZ01jWV9PbW5uVmMzUEN6dkFZd205QTBtVzVFekM3SW1WazZtY0FvN1ByWGU2VDdsMzRqcnFlSGtxbVNQT1Q?oc=5",
+      "tags": [
+        "渠道与电商"
       ]
     },
     {
@@ -6116,580 +6698,6 @@
       "tags": [
         "物流与履约",
         "全球"
-      ]
-    },
-    {
-      "id": "intel-c8379c4e0c6d962944",
-      "title": "构建沪杭同城门户，杭州发文对接融入虹桥国际开放枢纽 - 21财经",
-      "summary": "构建沪杭同城门户，杭州发文对接融入虹桥国际开放枢纽 21财经",
-      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
-      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
-      "published_at": "2026-10-22T10:52:00+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "渠道与电商",
-      "signal_type": "platform_rule",
-      "impact": "mixed",
-      "stage": "reported",
-      "score": 7.1,
-      "confidence": 70,
-      "source": "21财经",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdEFob0t6Nk1wWXRLNGlVWjQzdjVueW9wWVVsT1dZSUg2X2ZsNjVzZldnYUQ1a1oyRk1mcDY1WWxuYnVQRVJiMV93cURhRXZEam05MzI3RUIwanVCTk5ZbUxhMWxvQ3VwLXVuSjNFU0c1QWNlM3RkTk5FRFF5RHFQQ05yOTRBTjdMN2Rkbm9haw?oc=5",
-      "tags": [
-        "渠道与电商"
-      ]
-    },
-    {
-      "id": "intel-9329c79468eb4b1ed2",
-      "title": "椰香扬帆链接全球丨南国食品圆满收官2026中国品牌出海博览会_产经_资讯频道 - 信阳新闻网",
-      "summary": "椰香扬帆链接全球丨南国食品圆满收官2026中国品牌出海博览会_产经_资讯频道 信阳新闻网",
-      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
-      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
-      "published_at": "2026-10-22T09:38:32+00:00",
-      "brand": "行业基础设施",
-      "market": "全球",
-      "category": "品牌与扩张",
-      "signal_type": "market_entry",
-      "impact": "mixed",
-      "stage": "reported",
-      "score": 6.7,
-      "confidence": 70,
-      "source": "信阳新闻网",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KMm8yeXRIRVEweURKR2hQbTBDd0dwR1R5Rk9Xem00YnpjTE9xX2l3MFN2WjlPdmRGa0R3bXVVZ00tOWhtTmxNTEF1bFZWOExLNWlCUUs3RE4wSlk?oc=5",
-      "tags": [
-        "品牌与扩张",
-        "全球"
-      ]
-    },
-    {
-      "id": "intel-3846235d6856193238",
-      "title": "百世快运拓展跨境货物国内运输 业务揽收量同比增长近10倍 - 中国交通新闻网",
-      "summary": "百世快运拓展跨境货物国内运输 业务揽收量同比增长近10倍 中国交通新闻网",
-      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
-      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
-      "published_at": "2026-10-22T09:30:46+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "渠道与电商",
-      "signal_type": "platform_rule",
-      "impact": "opportunity",
-      "stage": "reported",
-      "score": 6.9,
-      "confidence": 70,
-      "source": "中国交通新闻网",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UWHQyYzI3R0IySlhfSGpHVm9CdjYxMDhjQS1KSzdfaTZoZWl5UDBHZW1SbUpHeWN3dEVqcHlYTWt6UUFHckZZYm9xMXdldmtaYnFUVmR1cGRmMExmM25SdHln?oc=5",
-      "tags": [
-        "渠道与电商"
-      ]
-    },
-    {
-      "id": "intel-3b8484109073ed980a",
-      "title": "提前半年备货，中国品牌迎战海外双11：有企业豪掷500万美元，速卖通备货量大涨146% - 时代在线",
-      "summary": "提前半年备货，中国品牌迎战海外双11：有企业豪掷500万美元，速卖通备货量大涨146% 时代在线",
-      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
-      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
-      "published_at": "2026-10-22T09:18:05+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "品牌与扩张",
-      "signal_type": "market_entry",
-      "impact": "mixed",
-      "stage": "reported",
-      "score": 6.7,
-      "confidence": 70,
-      "source": "时代在线",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1GdHJQR1N2OHUzNzRFN1lHdHI1UFNMX3FPTHZhXzNjTUxzTGo0ckYtaEdDLVN0SnNYUVBkdWR2cjZ2VXBCbUxUWWpzRQ?oc=5",
-      "tags": [
-        "品牌与扩张"
-      ]
-    },
-    {
-      "id": "intel-a48a664ab39213510b",
-      "title": "提前半年备货，中国品牌迎战海外双11：有企业豪掷500万美元，速卖通备货量大涨146% - 证券之星",
-      "summary": "提前半年备货，中国品牌迎战海外双11：有企业豪掷500万美元，速卖通备货量大涨146% 证券之星",
-      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
-      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
-      "published_at": "2026-10-22T09:18:01+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "品牌与扩张",
-      "signal_type": "market_entry",
-      "impact": "mixed",
-      "stage": "reported",
-      "score": 6.7,
-      "confidence": 70,
-      "source": "证券之星",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XWXNocmkxeE9OaDBBT2o0TDZNRnM3d0xKZ2txTGdtZjNHMEM5Sm0zSGxpd21ybExScURZVzlhSnlTdlJoZnZQVVh1cVpVdEFyVHVVeHA0bXVxM0J4SS1NbA?oc=5",
-      "tags": [
-        "品牌与扩张"
-      ]
-    },
-    {
-      "id": "intel-398205a6a6c7b35a20",
-      "title": "提前半年备货，中国品牌迎战海外双11：有企业豪掷500万美元，速卖通备货量大涨146% - 时代财经",
-      "summary": "提前半年备货，中国品牌迎战海外双11：有企业豪掷500万美元，速卖通备货量大涨146% 时代财经",
-      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
-      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
-      "published_at": "2026-10-22T09:18:00+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "品牌与扩张",
-      "signal_type": "market_entry",
-      "impact": "mixed",
-      "stage": "reported",
-      "score": 7.1,
-      "confidence": 70,
-      "source": "时代财经",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObHA3cGxqVGZydGRZT21OYmxOeGVuR21XUDFtZ2gxVmhuV25iV21neU9DaWtIVGI3Q2tfYXprNUtoZmZBWEdoUmg2U2VyWDR1SVZ1Q3ZuQTE0bnRmRTN6SUlvbGpxVWV0eFZRMnBPZFR6aVFUWUNOM2ZoQVgzN2xZdHM1LUVnaXNYYmVYWG42UVNxM21WdFNFeA?oc=5",
-      "tags": [
-        "品牌与扩张"
-      ]
-    },
-    {
-      "id": "intel-890bba2a60db33d4f0",
-      "title": "提前半年备货，中国品牌迎战海外双11：有企业豪掷500万美元，速卖通备货量大涨146% - 新浪财经",
-      "summary": "提前半年备货，中国品牌迎战海外双11：有企业豪掷500万美元，速卖通备货量大涨146% 新浪财经",
-      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
-      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
-      "published_at": "2026-10-22T09:18:00+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "品牌与扩张",
-      "signal_type": "market_entry",
-      "impact": "mixed",
-      "stage": "reported",
-      "score": 6.7,
-      "confidence": 70,
-      "source": "新浪财经",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01Z2ZPbElxelZpUS1pVTNVMm8xc2gzeG1ILUNYbEtzS2xBSVloU3dieHEya1BpcThMaFpZdUFyeTlaNEpZNkg5OFBwSGRPVjhZcVJ6dHNKT1J2azhxWG5GbUdzOFlhaDdDNjQyQ09ka1VmYldoQV9hQ1BHRXVOVGc?oc=5",
-      "tags": [
-        "品牌与扩张"
-      ]
-    },
-    {
-      "id": "intel-f3f00834718efd3af6",
-      "title": "织密全球通道 南航物流2026冬春航季在沪运力再升级 - 中国民航网",
-      "summary": "织密全球通道 南航物流2026冬春航季在沪运力再升级 中国民航网",
-      "pm_takeaway": "只有进入商品页承诺、订单轨迹和异常补偿，物流才成为用户体验。",
-      "action": "对比三个市场的预计送达、轨迹完整度、退货入口与补偿规则。",
-      "published_at": "2026-10-22T08:29:00+00:00",
-      "brand": "行业基础设施",
-      "market": "全球",
-      "category": "物流与履约",
-      "signal_type": "logistics_route",
-      "impact": "mixed",
-      "stage": "reported",
-      "score": 6.7,
-      "confidence": 70,
-      "source": "中国民航网",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05c2t1OFBrR0hKQWN4cU50b2F2enpDUGFmWTJIMGt0M211ZmNPM2xOeWdRUWN3YVJnLXRJLTVyYmcybTNTbUQ3YXBWRVNycnl4M1NSNlgzaGFsQ2kwS2I4ZG1jSjFfSzQ3N2dROA?oc=5",
-      "tags": [
-        "物流与履约",
-        "全球"
-      ]
-    },
-    {
-      "id": "intel-8511ec024ed471edc9",
-      "title": "中国总览｜寰宇专论｜首届中国品牌出海博览会在海南举行：当中国品牌学会\"走出去\"，世界便多了一座桥 - 潮新闻客户端",
-      "summary": "中国总览｜寰宇专论｜首届中国品牌出海博览会在海南举行：当中国品牌学会\"走出去\"，世界便多了一座桥 潮新闻客户端",
-      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
-      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
-      "published_at": "2026-10-22T08:01:05+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "品牌与扩张",
-      "signal_type": "market_entry",
-      "impact": "mixed",
-      "stage": "reported",
-      "score": 6.7,
-      "confidence": 70,
-      "source": "潮新闻客户端",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VdTF1Slk5dDBKOVRjLXB0Rk9QbDNic2ZVWkJUVWpsaXpyZ29VYlVaQ0dxSkF0S3FiTmVIQmRIODd4YWppeDBpaWtWMFh0YkUzaHNuZ0VUSGczU2x0LWJ3WlhQM3dkS3lIN2RZREVRV1Y2NUE?oc=5",
-      "tags": [
-        "品牌与扩张"
-      ]
-    },
-    {
-      "id": "intel-36b2be9ab4ff915219",
-      "title": "山姆：全部下架！已有多人收到召回短信-中国吉林网 - 第一新闻",
-      "summary": "山姆：全部下架！已有多人收到召回短信-中国吉林网 第一新闻",
-      "pm_takeaway": "规则不是发布日一次性事件，要持续跟踪生效日、实施细则与执法案例。",
-      "action": "把生效日期、适用品类、证据要求和负责人写进合规日历。",
-      "published_at": "2026-10-22T07:51:00+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "政策与合规",
-      "signal_type": "recall",
-      "impact": "risk",
-      "stage": "reported",
-      "score": 6.9,
-      "confidence": 70,
-      "source": "第一新闻",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1MWE1tRWQzTGFUWXBJTUpMcGxublJraWJvUjdoSFI3S3VwcnktSGVwUDZMQkZyQ1NMWnZJNmdhR3ZrS1g0X0xzT2tJR181YzROR1NqSnZPVXNCdVJB?oc=5",
-      "tags": [
-        "政策与合规"
-      ]
-    },
-    {
-      "id": "intel-f4e9b7cb60d871f789",
-      "title": "海南大视界‖双会领航海口 共筑品牌出海新高地 - 中国航空旅游网",
-      "summary": "海南大视界‖双会领航海口 共筑品牌出海新高地 中国航空旅游网",
-      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
-      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
-      "published_at": "2026-10-22T07:39:18+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "品牌与扩张",
-      "signal_type": "market_entry",
-      "impact": "mixed",
-      "stage": "reported",
-      "score": 6.7,
-      "confidence": 70,
-      "source": "中国航空旅游网",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuNTVzMzhQS0lEN29oUG93NWlaRVRUNVdkMG5xOEwtV3hFSlNrWVlaR1RqMTJaS3NURnRjMXRwWHV2SHM5U19FXzZFbUtya2VScmNNRw?oc=5",
-      "tags": [
-        "品牌与扩张"
-      ]
-    },
-    {
-      "id": "intel-89523acddefb18218d",
-      "title": "多平台下架好健康牡蛎精胶囊 - 新浪财经",
-      "summary": "多平台下架好健康牡蛎精胶囊 新浪财经",
-      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
-      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
-      "published_at": "2026-10-22T07:34:36+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "渠道与电商",
-      "signal_type": "platform_rule",
-      "impact": "mixed",
-      "stage": "reported",
-      "score": 6.7,
-      "confidence": 70,
-      "source": "新浪财经",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5zdDA0UnU3X1ZWdkp2S0I0Znc0SnJqenN0WFlIM0dRQWVuWS1kMWJ4eWNEQ2R2YjVXUFpVQkd5S1lmeGNSUVpFNTJXelhKRzNWNG5MWTZCckYzOEY0eFUtcFBGYl9GR1RyalJCWG9zcnd3UQ?oc=5",
-      "tags": [
-        "渠道与电商"
-      ]
-    },
-    {
-      "id": "intel-ba4028b75c56685e2e",
-      "title": "包裹通达欧亚！二连浩特跨境电商驶入发展快车道 - 正北方网",
-      "summary": "包裹通达欧亚！二连浩特跨境电商驶入发展快车道 正北方网",
-      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
-      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
-      "published_at": "2026-10-22T07:28:28+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "渠道与电商",
-      "signal_type": "platform_rule",
-      "impact": "mixed",
-      "stage": "reported",
-      "score": 7.1,
-      "confidence": 70,
-      "source": "正北方网",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5QNFVYSkFvREUtcmIwZXhzOXlLaHpuSTVuR3RVUE9sd0xqbWxpUXhoRk1FTFVoYW9kUzdNQ0JtZXpWRzlXTGV0dUFzS0dBcE5zNWtnZXlGMDdDeHctR0lOVVNn?oc=5",
-      "tags": [
-        "渠道与电商"
-      ]
-    },
-    {
-      "id": "intel-6de6c2412e06f76d76",
-      "title": "百世快运拓展跨境货物国内运输业务 全国网络迎来新增长 - 中华网",
-      "summary": "百世快运拓展跨境货物国内运输业务 全国网络迎来新增长 中华网",
-      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
-      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
-      "published_at": "2026-10-22T07:07:46+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "渠道与电商",
-      "signal_type": "platform_rule",
-      "impact": "opportunity",
-      "stage": "reported",
-      "score": 7.3,
-      "confidence": 70,
-      "source": "中华网",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9kenpuY3ViVkR3SXRIbFBwMU1vYWZ4cmVKOGFFZlhPUzdyQ29pSDB3VklCZHZlblRqUk4tQW1sMFVPTjN5QXJBVWkwb3ZONFZ6SlRBS0Fpd0hiZEFnM0I1bTA0V0liMjVuY3Jr?oc=5",
-      "tags": [
-        "渠道与电商"
-      ]
-    },
-    {
-      "id": "intel-6700a01fdf17bba4be",
-      "title": "山姆回应召回好健康牡蛎精胶囊 海关检出污染物成分 - 中华网",
-      "summary": "山姆回应召回好健康牡蛎精胶囊 海关检出污染物成分 中华网",
-      "pm_takeaway": "规则不是发布日一次性事件，要持续跟踪生效日、实施细则与执法案例。",
-      "action": "把生效日期、适用品类、证据要求和负责人写进合规日历。",
-      "published_at": "2026-10-22T07:06:16+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "政策与合规",
-      "signal_type": "recall",
-      "impact": "risk",
-      "stage": "reported",
-      "score": 7.3,
-      "confidence": 70,
-      "source": "中华网",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1uYmpnR3NveENwRUdYLVJRNVRhdkFyc0JIbUJyd2N1cVNiZHlaSmpCQ2ZvY1ZwalBGUHBJWnd4NVVZRGt5M1o5LUpTdG93SklFN1FhdDV6RDlxYWtEOXpKbHRFcTNZRGxwWHpaMkNILS0?oc=5",
-      "tags": [
-        "政策与合规"
-      ]
-    },
-    {
-      "id": "intel-838809bd834df2bb57",
-      "title": "突然收到山姆召回短信，网友傻眼：已全部吃完；品牌方：立即停止食用 - 紫牛新闻",
-      "summary": "突然收到山姆召回短信，网友傻眼：已全部吃完；品牌方：立即停止食用 紫牛新闻",
-      "pm_takeaway": "规则不是发布日一次性事件，要持续跟踪生效日、实施细则与执法案例。",
-      "action": "把生效日期、适用品类、证据要求和负责人写进合规日历。",
-      "published_at": "2026-10-22T07:03:00+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "政策与合规",
-      "signal_type": "recall",
-      "impact": "risk",
-      "stage": "reported",
-      "score": 7.3,
-      "confidence": 70,
-      "source": "紫牛新闻",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LVjZ6cnFNUklRSEJDdmtuem9iTVRMSGVERDFYdXVqZjlIeG85ZlhwXzN0THlsb2xHakdxalhkU0k3ZkloNG1YUXpnS3N1cnJIby1fcGIwS0tVeTh1WVV4NURmTkduSWdZMGc?oc=5",
-      "tags": [
-        "政策与合规"
-      ]
-    },
-    {
-      "id": "intel-fd58ff7b8dd5587567",
-      "title": "琼州潮起，品牌扬帆——2026中国品牌出海博览会在海口举办 - 搜狐网",
-      "summary": "琼州潮起，品牌扬帆——2026中国品牌出海博览会在海口举办 搜狐网",
-      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
-      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
-      "published_at": "2026-10-22T07:00:00+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "品牌与扩张",
-      "signal_type": "market_entry",
-      "impact": "mixed",
-      "stage": "reported",
-      "score": 6.7,
-      "confidence": 70,
-      "source": "搜狐网",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTDNOR21GNWxibXZ3TkdRTFhpT3JZNHpkVzEzYUJlOVNLSlhqM0ctbnQwX0tqc0N2NGl3bXRaZkI4VjdPdmljT1d1bUVQd09NdmlnUm5nTjdxdERhODQ2Xy1admRrMzhDanM1S25iTXpKZm5CV3RDV1Jrb1BQZWYzRkMxMUYyX09wbXEzMg?oc=5",
-      "tags": [
-        "品牌与扩张"
-      ]
-    },
-    {
-      "id": "intel-9a9654e63e161efd47",
-      "title": "（经济观察）中国品牌出海热 “扎下根”成为新课题 - 东盟头条",
-      "summary": "（经济观察）中国品牌出海热 “扎下根”成为新课题 东盟头条",
-      "pm_takeaway": "把扩张拆成获客、复购与本地经营三个阶段，不只看门店或商品交易总额。",
-      "action": "记录进入节奏、渠道结构与本地团队配置，建立市场进入对照表。",
-      "published_at": "2026-10-22T07:00:00+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "品牌与扩张",
-      "signal_type": "market_entry",
-      "impact": "mixed",
-      "stage": "reported",
-      "score": 6.7,
-      "confidence": 70,
-      "source": "东盟头条",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE83U1h5MUZKM291R0pSRGhCbko5eVRnRFhwUkRtd0hscVBPRHpoZVo0VzZlY1liamVDemhYUXY2QTFoODBvUjZkckpmaw?oc=5",
-      "tags": [
-        "品牌与扩张"
-      ]
-    },
-    {
-      "id": "intel-6949b736baa481c694",
-      "title": "山姆召回“好健康”牡蛎精 - 搜狐",
-      "summary": "山姆召回“好健康”牡蛎精 搜狐",
-      "pm_takeaway": "规则不是发布日一次性事件，要持续跟踪生效日、实施细则与执法案例。",
-      "action": "把生效日期、适用品类、证据要求和负责人写进合规日历。",
-      "published_at": "2026-10-22T06:56:44+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "政策与合规",
-      "signal_type": "recall",
-      "impact": "risk",
-      "stage": "reported",
-      "score": 7.3,
-      "confidence": 70,
-      "source": "搜狐",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN2VtN1RLc1BfUXpBd2dVWVF4LTl3SGZ3WGgwSnFHQzhzUjV3MVpDeVNmOUNHbFJjamRUck9IdGVXRnlaOU9TMk1uY1d6NXpqMFNVUTRObjAxSXF1QnVOTVlYU1FUakl3b3dNc2Y4OWlJem1SNlZMZ0d2bWVabzN0YzZlbFhnT0Qw?oc=5",
-      "tags": [
-        "政策与合规"
-      ]
-    },
-    {
-      "id": "intel-000bcb274fd9349045",
-      "title": "《甘肃省跨境电商发展全景分析报告（2025）》网经社发布 - 搜狐",
-      "summary": "《甘肃省跨境电商发展全景分析报告（2025）》网经社发布 搜狐",
-      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
-      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
-      "published_at": "2026-10-22T06:32:55+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "渠道与电商",
-      "signal_type": "product_launch",
-      "impact": "opportunity",
-      "stage": "reported",
-      "score": 7.3,
-      "confidence": 70,
-      "source": "搜狐",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQlAxVWFuYXlfc056ZlBZeU5pZDNidEVHZUZ6LW52TnlxZnpKZ0JFTXpLSk1jNXpGb21MbG9BdzFZeGNFRWNJR21RMEg0RjJfTDZzaXpvVWN6QkZwWHYtcFRnUnpVWnp0OHNFZUdxX2N5ZkZKYXplWmE3T04yZmVPcm84VklpRE5uX3VtQQ?oc=5",
-      "tags": [
-        "渠道与电商"
-      ]
-    },
-    {
-      "id": "intel-fced808141a0803d9f",
-      "title": "山姆召回“好健康”牡蛎精：海关风险警示触发跨境电商渠道清退 - 搜狐",
-      "summary": "山姆召回“好健康”牡蛎精：海关风险警示触发跨境电商渠道清退 搜狐",
-      "pm_takeaway": "规则不是发布日一次性事件，要持续跟踪生效日、实施细则与执法案例。",
-      "action": "把生效日期、适用品类、证据要求和负责人写进合规日历。",
-      "published_at": "2026-10-22T06:30:00+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "政策与合规",
-      "signal_type": "recall",
-      "impact": "risk",
-      "stage": "reported",
-      "score": 7.3,
-      "confidence": 70,
-      "source": "搜狐",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdi1xUENFTWxCVE9kWXhJaUpFZ0p0VlM2bHY5ZDFRRGdUcUE4SXlBd282eVUtQkNrU2dXcnVnTmluWHRQb2FGMWJZWmNwSGlWZVF3ZTRTbUl4dlRvMzB1TWY4NlJZMkRYU2lrVWlzR0wyQjlZUmtZMHlIQVNPNC1leC1SWEFETF9mUnk2cQ?oc=5",
-      "tags": [
-        "政策与合规"
-      ]
-    },
-    {
-      "id": "intel-533de2d9d872e3b3cb",
-      "title": "“好健康”牡蛎精被海关检出污染物，山姆紧急召回 - 搜狐",
-      "summary": "“好健康”牡蛎精被海关检出污染物，山姆紧急召回 搜狐",
-      "pm_takeaway": "规则不是发布日一次性事件，要持续跟踪生效日、实施细则与执法案例。",
-      "action": "把生效日期、适用品类、证据要求和负责人写进合规日历。",
-      "published_at": "2026-10-22T06:27:00+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "政策与合规",
-      "signal_type": "recall",
-      "impact": "risk",
-      "stage": "reported",
-      "score": 7.3,
-      "confidence": 70,
-      "source": "搜狐",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcUZjWDVxQkRJSWFuR1VWNDAxanY0enpLTHVDUHZ0UjI4WnprMnpTclRIb045RnNFS1pqNDV6NFdYaS01elJMVUFzaHVqT29zR0lKSkZKOEcyc21pU3U3a0ZjejBRUEtQR0x6SEJwQXJkdGVzRllRb3RxdW5DMmJ6OVdYZXh2bXdFT1VGbA?oc=5",
-      "tags": [
-        "政策与合规"
-      ]
-    },
-    {
-      "id": "intel-da8727888ac1f1fb21",
-      "title": "中国品牌跨境电商出海实战峰会在海南海口举办 - 搜狐",
-      "summary": "中国品牌跨境电商出海实战峰会在海南海口举办 搜狐",
-      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
-      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
-      "published_at": "2026-10-22T06:14:19+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "渠道与电商",
-      "signal_type": "platform_rule",
-      "impact": "mixed",
-      "stage": "reported",
-      "score": 7.1,
-      "confidence": 70,
-      "source": "搜狐",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdW01Y0IyUEw4T0JaMXlncEUxdFNUeVZ4T08xU0J5QVB1Rl80d2RKNE5mY2ZNbWRIUmJJRVh5WEUzTU5tM3ZqQXNma2xUZ284Wl95T29GVGVoU05WY182WnBja2Nna2N0eVlZaXZnRUlURmZzNFVSeHgwS1hlR2gxZFVzZ25iMmFBaEJVaw?oc=5",
-      "tags": [
-        "渠道与电商"
-      ]
-    },
-    {
-      "id": "intel-926cfa1c610da0b371",
-      "title": "中国品牌跨境电商出海实战峰会在海南海口举办 - 搜狐网",
-      "summary": "中国品牌跨境电商出海实战峰会在海南海口举办 搜狐网",
-      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
-      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
-      "published_at": "2026-10-22T06:14:19+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "渠道与电商",
-      "signal_type": "platform_rule",
-      "impact": "mixed",
-      "stage": "reported",
-      "score": 6.7,
-      "confidence": 70,
-      "source": "搜狐网",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5CSFlVMlROdEJxclEyRHJPTmcwdzZLNVZEeXV6em9EYzRMRGxtUHVFc0xNM2ZWY2JVZWdVMnlkTlVHS3FsemVpeEEwOEM2aERmQlk5UA?oc=5",
-      "tags": [
-        "渠道与电商"
-      ]
-    },
-    {
-      "id": "intel-3f15fd15f9b401a9ee",
-      "title": "中国品牌跨境电商出海实战峰会在海南海口举办- 中国日报网 - China Daily",
-      "summary": "中国品牌跨境电商出海实战峰会在海南海口举办- 中国日报网 China Daily",
-      "pm_takeaway": "平台规则变化最终会落到流量、费用、履约门槛和商家毛利。",
-      "action": "更新平台政策日志，并重算一个代表性商品款的单位经济。",
-      "published_at": "2026-10-22T06:14:19+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "渠道与电商",
-      "signal_type": "platform_rule",
-      "impact": "mixed",
-      "stage": "reported",
-      "score": 6.7,
-      "confidence": 70,
-      "source": "China Daily",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBTOXJZRzIwTVhKaldQUTdTeHNqSldtNXpBUWFVY0VYcDlFaFR3dHk0MVB3b0d6TVlnTHJxRkJ5T3d6dXhvV1YzVkJTV0R5aXpyWDg4LTZjdUFsZ2lCQkdZTGRQZEIzdzREbGdvZVhpU3gxbWFiSjMzejF1LWFGLUU?oc=5",
-      "tags": [
-        "渠道与电商"
-      ]
-    },
-    {
-      "id": "intel-bf08d86004f8481737",
-      "title": "好健康牡蛎精被海关检出污染物 品牌方启动召回程序 - 中华网",
-      "summary": "好健康牡蛎精被海关检出污染物 品牌方启动召回程序 中华网",
-      "pm_takeaway": "规则不是发布日一次性事件，要持续跟踪生效日、实施细则与执法案例。",
-      "action": "把生效日期、适用品类、证据要求和负责人写进合规日历。",
-      "published_at": "2026-10-22T06:12:22+00:00",
-      "brand": "行业基础设施",
-      "market": "多市场",
-      "category": "政策与合规",
-      "signal_type": "recall",
-      "impact": "risk",
-      "stage": "reported",
-      "score": 7.3,
-      "confidence": 70,
-      "source": "中华网",
-      "source_tier": "C",
-      "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3YWFGNndwdENpSWxKSXF3WlZCdW8xZklQcmZDVnp5dmhlQkt1a05zbmJfaGFZWHNCVFhRS0h6NHlLd1BseXotN241MjJHMk1qM2xYRnphWS1zQUZGY0F1RXhFV1M5VDRLQURLZVJGaDM?oc=5",
-      "tags": [
-        "政策与合规"
       ]
     }
   ]
